@@ -36,9 +36,9 @@ custom-icons includes legacy Mdi icons, and several special purpose icons made o
 
 | Icon | Name | Author | Icon | Name | Author |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| ![custom:apple-homepod-mini](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/apple-homepod-mini.svg)| custom:apple-homepod-mini | Author | ![custom:apple-homepod](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/apple-homepod.svg)| custom:apple-homepod 
-| Author | ![custom:cellphone-iphone](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/cellphone-iphone.svg)| custom:cellphone-iphone | Author | ![custom:desklamp-on](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/desklamp-on.svg)| custom:desklamp-on  
-| Author | ![custom:laptop-mac](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/laptop-mac.svg)| custom:laptop-mac | Author | ![custom:light-switch](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/light-switch.svg)| custom:light-switch | Author |
+| ![custom:apple-homepod-mini](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/apple-homepod-mini.svg)| custom:apple-homepod-mini | @arallsopp | ![custom:apple-homepod](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/apple-homepod.svg)| custom:apple-homepod 
+| @arallsopp | ![custom:cellphone-iphone](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/cellphone-iphone.svg)| custom:cellphone-iphone | Mdi legacy | ![custom:desklamp-on](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/desklamp-on.svg)| custom:desklamp-on  
+| Mdi legacy | ![custom:laptop-mac](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/laptop-mac.svg)| custom:laptop-mac | Mdi legacy | ![custom:light-switch](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/light-switch.svg)| custom:light-switch | Mdi legacy |
 
 
 
