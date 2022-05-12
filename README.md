@@ -34,7 +34,7 @@ custom-icons includes legacy Mdi icons, and several special purpose icons made o
 
 [//]: # (Start Custom Icons)
 
-| Icon | Name | Author | Icon | Name | Author
+| Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
 | ![custom:apple-homepod-mini](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/apple-homepod-mini.svg)| custom:apple-homepod-mini | ![custom:apple-homepod](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/apple-homepod.svg)| custom:apple-homepod 
 | ![custom:cellphone-iphone](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/cellphone-iphone.svg)| custom:cellphone-iphone | ![custom:desklamp-on](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/desklamp-on.svg)| custom:desklamp-on  
