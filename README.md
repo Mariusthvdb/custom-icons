@@ -34,11 +34,11 @@ custom-icons includes legacy Mdi icons, and several special purpose icons made o
 
 [//]: # (Start Custom Icons)
 
-| Icon | Name | Icon | Name 
+| Icon | Name | Author | Icon | Name | Author
 | :--- | :--- | :--- | :--- |
-| ![custom:apple-homepod-mini](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/apple-homepod-mini.svg)| custom:apple-homepod-mini | ![custom:apple-homepod](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/apple-homepod.svg)| custom:apple-homepod |
-| ![custom:cellphone-iphone](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/cellphone-iphone.svg)| custom:cellphone-iphone | ![custom:desklamp-on](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/desklamp-on.svg)| custom:desklamp-on |
-| ![custom:laptop-mac](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/laptop-mac.svg)| custom:laptop-mac | ![custom:light-switch](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/light-switch.svg)| custom:light-switch |
+| ![custom:apple-homepod-mini](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/apple-homepod-mini.svg)| custom:apple-homepod-mini | @arallsopp | ![custom:apple-homepod](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/apple-homepod.svg)| custom:apple-homepod | @arallsopp |
+| ![custom:cellphone-iphone](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/cellphone-iphone.svg)| custom:cellphone-iphone | Mdi legacy | ![custom:desklamp-on](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/desklamp-on.svg)| custom:desklamp-on | Mdi legacy 
+| ![custom:laptop-mac](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/laptop-mac.svg)| custom:laptop-mac | Mdi legacy | ![custom:light-switch](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/light-switch.svg)| custom:light-switch | Mdi legacy |
 
 
 
