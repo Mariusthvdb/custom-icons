@@ -155,13 +155,13 @@ async function getIconList() {
   }));
 }
 window.customIcons = window.customIcons || {};
-window.customIcons["custom"] = { getIcon, getIconList };
+window.customIcons["cil"] = { getIcon, getIconList };
 
 window.customIconsets = window.customIconsets || {};
-window.customIconsets["custom"] = getIcon;
+window.customIconsets["cil"] = getIcon;
 
 const Name = "Custom-icons";
-const Version = "0.1.4";
+const Version = "0.1.5";
 const Description = "22020512";
 const Url = "https://github.com/Mariusthvdb/custom-icons";
 console.info(
