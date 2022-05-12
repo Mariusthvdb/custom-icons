@@ -1,4 +1,4 @@
-# Custom-icons
+# Custom icon library
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/hacs/integration)
 [![GH-release](https://img.shields.io/github/v/release/Mariusthvdb/custom-icons.svg?style=flat-square)](https://github.com/Mariusthvdb/custom-icons/releases)
@@ -26,7 +26,7 @@ Working on Hacs. For manual installation, add:
 to your resources file or in Dashboard UI.
 
 ## Usage
-- In your entity editor, specify an icon as `custom:icon-name`
+- In your entity editor, specify an icon as `cil:icon-name`, to indicate the icon to be from this Custom Icon Libary.
 - If you set `state_color: true` in your card, you'll see the icons get colorised based upon the current theme settings.
 
 ### Example:
@@ -38,7 +38,7 @@ type: entities
 entities:
   - entity: switch.ceiling_light
     name: Switch Light
-    icon: custom:light-switch
+    icon: cil:light-switch
 ```
 
 ## Icons
@@ -52,12 +52,12 @@ custom-icons includes legacy Mdi icons, and several special purpose icons made o
 
 | Icon | Name | Author | Icon | Name | Author |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| ![custom:apple-homepod-mini](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/apple-homepod-mini.svg)| apple-homepod-mini | [@arallsopp](https://github.com/arallsopp) | ![custom:apple-homepod](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/apple-homepod.svg)| apple-homepod | [@arallsopp](https://github.com/arallsopp) | 
-| ![custom:cellphone-iphone](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/cellphone-iphone.svg)| cellphone-iphone | [Mdi legacy](https://dev.materialdesignicons.com/changelog) | ![custom:desklamp-on](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/desklamp-on.svg)| desklamp-on | [Mdi legacy](https://dev.materialdesignicons.com/changelog) | 
-| ![custom:laptop-mac](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/laptop-mac.svg)| laptop-mac | [Mdi legacy](https://dev.materialdesignicons.com/changelog) | ![custom:light-switch](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/light-switch.svg)| light-switch | [Mdi legacy](https://dev.materialdesignicons.com/changelog) |
-| ![custom:shutter-0](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/shutter-0.svg)| shutter-0 | [@g-kiss](https://github.com/g-kiss) | ![custom:shutter-1](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/shutter-1.svg)| shutter-1 | [@g-kiss](https://github.com/g-kiss) |
-| ![custom:shutter-2](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/shutter-2.svg)| shutter-2 | [@g-kiss](https://github.com/g-kiss) | ![custom:shutter-3](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/shutter-3.svg)| shutter-3 | [@g-kiss](https://github.com/g-kiss) |
-| ![custom:shutter-4](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/shutter-4.svg)| shutter-4 | [@g-kiss](https://github.com/g-kiss) | ![custom:ikea-death-star](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/ikea-death-star.svg)| ikea-death-star | [@arallsopp](https://github.com/arallsopp) |
+| ![cil:apple-homepod-mini](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/apple-homepod-mini.svg)| apple-homepod-mini | [@arallsopp](https://github.com/arallsopp) | ![cil:apple-homepod](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/apple-homepod.svg)| apple-homepod | [@arallsopp](https://github.com/arallsopp) | 
+| ![cil:cellphone-iphone](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/cellphone-iphone.svg)| cellphone-iphone | [Mdi legacy](https://dev.materialdesignicons.com/changelog) | ![cil:desklamp-on](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/desklamp-on.svg)| desklamp-on | [Mdi legacy](https://dev.materialdesignicons.com/changelog) | 
+| ![cil:laptop-mac](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/laptop-mac.svg)| laptop-mac | [Mdi legacy](https://dev.materialdesignicons.com/changelog) | ![cil:light-switch](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/light-switch.svg)| light-switch | [Mdi legacy](https://dev.materialdesignicons.com/changelog) |
+| ![cil:shutter-0](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/shutter-0.svg)| shutter-0 | [@g-kiss](https://github.com/g-kiss) | ![cil:shutter-1](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/shutter-1.svg)| shutter-1 | [@g-kiss](https://github.com/g-kiss) |
+| ![cil:shutter-2](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/shutter-2.svg)| shutter-2 | [@g-kiss](https://github.com/g-kiss) | ![cil:shutter-3](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/shutter-3.svg)| shutter-3 | [@g-kiss](https://github.com/g-kiss) |
+| ![custom:shutter-4](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/shutter-4.svg)| shutter-4 | [@g-kiss](https://github.com/g-kiss) | ![cil:ikea-death-star](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/ikea-death-star.svg)| ikea-death-star | [@arallsopp](https://github.com/arallsopp) |
 
 [//]: # (End Custom Icons)
 
