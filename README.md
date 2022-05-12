@@ -14,3 +14,11 @@ Several icons by the Frontend magician [Matt8707](https://github.com/matt8707/ha
 Structure of the file copied from the great and appreciated [Hass Hue Icon](https://github.com/arallsopp/hass-hue-icons) repo by @arallsopp who should recieve all the credits and without whom the HA interface would be the same ;-)
 
 Thanks to all!
+
+# Installation
+Working on Hacs, manual add:
+
+- url: /local/lovelace/resources/custom-icons/custom-icons.js?v=0.1.4
+  type: module
+
+to you resources file or in Dashboard UI.
