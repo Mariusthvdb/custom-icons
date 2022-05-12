@@ -23,4 +23,23 @@ Working on Hacs. For manual installation, add:
   type: module
 ```
 
-to you resources file or in Dashboard UI.
+to your resources file or in Dashboard UI.
+
+## Icons
+
+### Handmade and legacy
+
+custom-icons includes legacy Mdi icons, and several special purpose icons made on request
+(more to be listed below, for now check the .js file please)
+
+[//]: # (Start Custom Icons)
+
+| Icon | Name | Icon | Name 
+| :--- | :--- | :--- | :--- |
+| ![custom:apple-homepod-mini](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/apple-homepod-mini.svg)| custom:apple-homepod-mini | ![custom:apple-homepod](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/apple-homepod.svg)| custom:apple-homepod |
+| ![custom:cellphone-iphone](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/cellphone-iphone.svg)| custom:cellphone-iphone | ![custom:desklamp-on](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/desklamp-on.svg)| custom:desklamp-on |
+| ![custom:laptop-mac](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/laptop-mac.svg)| custom:laptop-mac | ![custom:light-switch](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/light-switch.svg)| custom:light-switch |
+
+
+
+[//]: # (End Custom Icons)
