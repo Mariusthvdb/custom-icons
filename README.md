@@ -16,7 +16,7 @@ Structure of the file copied from the great and appreciated [Hass Hue Icon](http
 Thanks to all!
 
 # Installation
-Working on Hacs, manual add:
+Working on Hacs. For manual installation, add:
 
 ```yaml
 - url: /local/lovelace/resources/custom-icons/custom-icons.js?v=0.1.4
