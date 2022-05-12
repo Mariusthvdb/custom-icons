@@ -24,3 +24,19 @@ Working on Hacs. For manual installation, add:
 ```
 
 to your resources file or in Dashboard UI.
+
+## Icons
+
+### Handmade and legacy
+
+custom-icons includes legacy Mdi icons, and several special purpose icons made on request
+
+[//]: # (Start Custom Icons)
+
+| Icon | Name | Icon | Name 
+| :--- | :--- | :--- | :--- |
+| ![custom:apple-homepod-mini](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/apple-homepod-mini.svg)| custom:apple-homepod-mini | ![custom:apple-homepod](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/apple-homepod.svg)| custom:apple-homepod |
+
+
+
+[//]: # (End Custom Icons)
