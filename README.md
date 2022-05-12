@@ -23,4 +23,4 @@ Working on Hacs. For manual installation, add:
   type: module
 ```
 
-to you resources file or in Dashboard UI.
+to your resources file or in Dashboard UI.
