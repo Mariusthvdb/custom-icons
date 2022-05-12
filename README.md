@@ -60,3 +60,7 @@ custom-icons includes legacy Mdi icons, and several special purpose icons made o
 | ![custom:shutter-4](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/shutter-4.svg)| shutter-4 | @g-kiss | ![custom:ikea-death-star](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/ikea-death-star.svg)| ikea-death-star | @arallsopp |
 
 [//]: # (End Custom Icons)
+
+## Want to join and add an icon?
+
+Please feel free to add an icon request, and open a discussion for that, preferably with the .svg in attachment. Of course, you can also open a Pr.
