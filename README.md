@@ -41,6 +41,6 @@ custom-icons includes legacy Mdi icons, and several special purpose icons made o
 | ![custom:laptop-mac](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/laptop-mac.svg)| custom:laptop-mac | Mdi legacy | ![custom:light-switch](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/light-switch.svg)| custom:light-switch | Mdi legacy |
 | ![custom:shutter-0](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/shutter-0.svg)| custom:shutter-0 | @g-kiss | ![custom:shutter-1](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/shutter-1.svg)| custom:shutter-1 | @g-kiss |
 | ![custom:shutter-2](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/shutter-2.svg)| custom:shutter-2 | @g-kiss | ![custom:shutter-3](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/shutter-3.svg)| custom:shutter-3 | @g-kiss |
-| ![custom:shutter-4](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/shutter-4.svg)| custom:shutter-4 | @g-kiss |
+| ![custom:shutter-4](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/shutter-4.svg)| custom:shutter-4 | @g-kiss | ![custom:ikea-death-star](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/ikea-death-star.svg)| custom:ikea-death-star | @arallsopp |
 
 [//]: # (End Custom Icons)
