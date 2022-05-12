@@ -18,7 +18,9 @@ Thanks to all!
 # Installation
 Working on Hacs, manual add:
 
+```yaml
 - url: /local/lovelace/resources/custom-icons/custom-icons.js?v=0.1.4
   type: module
+```
 
 to you resources file or in Dashboard UI.
