@@ -30,6 +30,7 @@ to your resources file or in Dashboard UI.
 ### Handmade and legacy
 
 custom-icons includes legacy Mdi icons, and several special purpose icons made on request
+(more to be listed below, for now check the .js file please)
 
 [//]: # (Start Custom Icons)
 
