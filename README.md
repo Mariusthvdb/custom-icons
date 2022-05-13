@@ -86,8 +86,8 @@ custom-icons includes legacy Mdi icons, and several special purpose icons made o
 | ![cil:shutter-4](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/shutter-4.svg)| shutter-4 | [@g-kiss](https://github.com/g-kiss) | ![cil:ikea-death-star](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/ikea-death-star.svg)| ikea-death-star | [@arallsopp](https://github.com/arallsopp) |
 | ![cil-table-cylinder-lamp](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/table-cylinder-lamp.svg)| table-cylinder-lamp | [@GunterAv](https://github.com/GunterAv) | ![cil-uplighter](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/uplighter.svg)| uplighter | [@GunterAv](https://github.com/GunterAv) |
 | ![cil-2-way-uplighter](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/2-way-uplighter.svg)| 2-way-uplighter | [@GunterAv](https://github.com/GunterAv) |
-| ![cil:sun-angle](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/sun-angle.svg)| sun-angle | [@goyney](https://github.com/goyney) |
-| ![cil:sun-angle-variant](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/sun-angle-variant.svg)| sun-angle-variant | [@goyney](https://github.com/goyney) |
+| ![cil:sun-angle](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/sun-angle.svg)| sun-angle | [@goyney](https://github.com/goyney) | ![cil:sun-angle-variant](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/sun-angle-variant.svg)| sun-angle-variant | [@goyney](https://github.com/goyney) |
+| ![cil:thermometer-empty](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/thermometer-empty.svg)| thermometer-empty | [@goyney](https://github.com/goyney) | ![cil:thermometer-full](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/thermometer-full.svg)| thermometer-full | [@goyney](https://github.com/goyney) |
 
 [//]: # (End Custom Icons)
 
