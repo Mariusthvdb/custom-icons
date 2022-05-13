@@ -23,7 +23,7 @@ On Hacs, install as custom repository. For manual installation, add:
   type: module
 ```
 
-to your resources file, or click
+to your resources file (adapt path to your own folder structure), or click
 
 <a href="https://my.home-assistant.io/redirect/lovelace_resources/" target="_blank"><img src="https://my.home-assistant.io/badges/lovelace_resources.svg" alt="Open your Home Assistant instance and show your Lovelace resources." /></a>
 
