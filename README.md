@@ -16,14 +16,15 @@ Structure of the file copied from the great and appreciated [Hass Hue Icon](http
 Thanks to all!
 
 # Installation
-Working on Hacs. For manual installation, add:
+On Hacs, install as custom repository. For manual installation, add:
 
 ```yaml
 - url: /local/lovelace/resources/custom-icons/custom-icons.js?v=0.1.4
   type: module
 ```
 
-to your resources file or in Dashboard UI.
+to your resources file or in Dashboard UI via 
+<a href="https://my.home-assistant.io/redirect/lovelace_resources/" target="_blank"><img src="https://my.home-assistant.io/badges/lovelace_resources.svg" alt="Open your Home Assistant instance and show your Lovelace resources." /></a>
 
 ## Usage
 - In your entity editor, specify an icon as `cil:icon-name`, to indicate the icon to be from this Custom Icon Libary.
