@@ -1,0 +1,19 @@
+{
+  "icons": [
+    { "name": "apple-homepod", "author": "[@arallsopp](https://github.com/arallsopp)"},
+    { "name": "apple-homepod-mini", "author": "[@arallsopp](https://github.com/arallsopp)"},
+    { "name": "cellphone-iphone", "author": "[Mdi legacy](https://dev.materialdesignicons.com/changelog)"},
+    { "name": "desklamp-on", "author": "[Mdi legacy](https://dev.materialdesignicons.com/changelog)"},
+    { "name": "delete-alert", "author": "[@idevo89](https://github.com/idevo89)"},
+    { "name": "delete-alert-outline", "author": "[@idevo89](https://github.com/idevo89)"},
+    { "name": "dishwasher-silverware", "author": "[@MrGrigri](https://github.com/MrGrigri)"},
+    { "name": "laptop-mac", "author": "[Mdi legacy](https://dev.materialdesignicons.com/changelog)"},
+    { "name": "light-switch", "author": "[Mdi legacy](https://dev.materialdesignicons.com/changelog)"},
+    { "name": "shutter-0", "author": "[@g-kiss](https://github.com/g-kiss)"},
+    { "name": "shutter-1", "author": "[@g-kiss](https://github.com/g-kiss)"},
+    { "name": "shutter-2", "author": "[@g-kiss](https://github.com/g-kiss)"},
+    { "name": "shutter-3", "author": "[@g-kiss](https://github.com/g-kiss)"},
+    { "name": "shutter-4", "author": "[@g-kiss](https://github.com/g-kiss)"}
+  ]
+}
+
