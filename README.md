@@ -40,7 +40,7 @@ to your resources file or in Dashboard UI.
         - entity: switch.tester
           name: Switch Light
           icon: cil:light-switch
-        - entity: device_tracker.mijn_mobiel_bt
+        - entity: device_tracker.mijn_mobiel
           name: My Phone
           icon: cil:cellphone-iphone
         - entity: light.alarm
