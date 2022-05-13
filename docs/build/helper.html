@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html data-ng-app="aaHelper" data-ng-strict-di
+      lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+    <title>Icon Helper</title>
+    <meta name = "viewport" content = "width=device-width, minimum-scale=1.0, maximum-scale = 1.0, user-scalable = no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular-animate.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular-aria.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular-messages.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular-cookies.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular-sanitize.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.12/angular-material.min.js"></script>
+
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.12/angular-material.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        textarea{
+            font-family: monospace;
+        }
+    </style>
+    <script>
+        var app=angular.module("aaHelper",["ngMaterial","ngMessages"]);
+        app.controller("AppCtrl",["$scope","$http","$location","$mdDialog","$interval","$mdToast",function(a,f,g){a.use_two_columns=!1;a.meta='{\n "icons": [\n   { "name": "apple-homepod", "author": "arallsopp"},\n   { "name": "laptop-mac",\t"author": "arallsopp"},\n   { "name": "delete-alert", "author": "[@idevo89](https://github.com/idevo89)"}\n  ]\n}';a.icons=[];a.read_meta=function(){try{var e=JSON.parse(a.meta);a.icons=e.icons;a.icons.sort(function(b,d){return b.name>d.name?1:d.name>b.name?-1:0});a.md=
+            "| Icon | Name | Author |";a.md=a.use_two_columns?a.md+" | Icon | Name | Author |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n":a.md+"\n| :--- | :--- | :--- \n";var c=0;angular.forEach(a.icons,function(b){c+=1;console.log("processing ",b);a.md+="| ![cil:"+b.name+"](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/"+b.name+".svg)| "+b.name+" | "+b.author+" |";1<c||!a.use_two_columns?(a.md+="\n",c=0):a.md+=" "})}catch(b){a.icons={},a.md="Could not read JSON. Check syntax"}};
+            a.read_meta()}]);
+    </script>
+</head>
+<body data-ng-controller="AppCtrl">
+<md-content class="md-padding" >
+    <div data-layout-gt-sm="row">
+        <md-card flex="">
+            <md-card-title>
+                <md-card-title-text>
+                    <span class="md-headline">Input JSON</span>
+                    <span class="md-subhead">Paste your JSON file into this box</span>
+                </md-card-title-text>
+            </md-card-title>
+            <md-card-content data-layout-align="start">
+                <md-input-container class="md-block">
+                    <label>JSON</label>
+                    <textarea data-ng-model="meta"
+                              data-ng-change="read_meta()"></textarea>
+                </md-input-container>
+                <md-input-container class="md-block">
+                    <md-switch ng-model="use_two_columns"
+                               data-ng-change="read_meta()"
+                               aria-label="Use two columns">
+                        Use two columns: {{ use_two_columms }}
+                    </md-switch>
+                </md-input-container>
+            </md-card-content>
+        </md-card>
+
+        <md-card flex="">
+            <md-card-title>
+                <md-card-title-text>
+                    <span class="md-headline">Markdown</span>
+                    <span class="md-subhead">This is generated automatically from the JSON. Copy and paste it into your readme</span>
+                </md-card-title-text>
+            </md-card-title>
+            <md-card-content>
+                <md-input-container class="md-block">
+                    <label>Markdown Source</label>
+                    <textarea data-ng-model="md"></textarea>
+                </md-input-container>
+            </md-card-content>
+        </md-card>
+    </div>
+    <div>
+        <md-card>
+            <md-card-title>
+                <md-card-title-text>
+                    <span class="md-headline">Sample Table Output</span>
+                    <span class="md-subhead">This is generated automatically from the JSON. <p data-ng-if="use_two_columns">NB: Can't handle two columns in this view right now, but the markdown and images should work!</p></span>
+                </md-card-title-text>
+            </md-card-title>
+            <md-card-content>
+                <table border="1">
+                    <tr><th>Icon</th><th>Name</th><th>Author</th></tr>
+                    <tr data-ng-repeat="icon in icons">
+                        <td><img width="24px" data-ng-src="../svgs/{{icon.name}}.svg"/></td>
+                        <td>{{icon.name}}</td>
+                        <td>{{icon.author}}</td>
+                    </tr>
+                </table>
+            </md-card-content>
+        </md-card>
+    </div>
+</md-content>
+
+</body>
+</html>
