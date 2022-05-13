@@ -158,6 +158,14 @@ const CUSTOM_ICONS_MAP = {
     path:"M18,2H6A2,2,0,0,0,4,4V20a2,2,0,0,0,2,2H18a2,2,0,0,0,2-2V4A2,2,0,0,0,18,2ZM10,4A1,1,0,1,1,9,5,1,1,0,0,1,10,4ZM7,4A1,1,0,1,1,6,5,1,1,0,0,1,7,4ZM18,20H6V8H18ZM8,9H9v3h1V9h1v3h1V9h1v3a2,2,0,0,1-2,2h0v5H10V14h0a2,2,0,0,1-2-2Zm8,0h0a2,2,0,0,0-2,2v4h1v4h1Z",
     keywords: ["kitchen","appliances"]
   },
+  "home-climate":{
+    path:"M 12 3 L 2 12 L 5 12 L 5 20 L 19 20 L 19 12 L 22 12 L 12 3 z M 12 8 A 1 1 0 0 1 13 9 L 13 14.269531 A 2 2 0 0 1 14 16 A 2 2 0 0 1 12 18 A 2 2 0 0 1 10 16 A 2 2 0 0 1 11 14.271484 L 11 9 A 1 1 0 0 1 12 8 z", 
+    keywords: ["temp","climate","home"]
+  },
+   "home-climate-outline":{
+    path:"M 12,2.089844 2.0898438,12 H 4 v 9 h 7 2 7 v -9 h 1.910156 z m 0,2.820312 6,6 V 19 H 17 15 13 11 9 8 6 V 10.910156 Z M 12,8 a 1,1 0 0 0 -1,1 v 4.271484 A 2,2 0 0 0 10,15 a 2,2 0 0 0 2,2 2,2 0 0 0 2,-2 2,2 0 0 0 -1,-1.730469 V 9 A 1,1 0 0 0 12,8 Z", 
+    keywords: ["temp","climate","home"]
+  }, 
 };
 
 async function getIcon(name) {
@@ -189,8 +197,8 @@ window.customIconsets = window.customIconsets || {};
 window.customIconsets["cil"] = getIcon;
 
 const Name = "Custom-icons";
-const Version = "0.1.5";
-const Description = "22020512";
+const Version = "0.1.7";
+const Description = "22020513";
 const Url = "https://github.com/Mariusthvdb/custom-icons";
 console.info(
     `%c  ${Name}  \n%c  Version ${Version} ${Description}`,
