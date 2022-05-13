@@ -63,7 +63,7 @@ homeassistant:
           return (state === 'on') ? 'cil:desklamp-on' : 'mdi:desk-lamp';
 ```
 
-![Custom icons](https://github.com/Mariusthvdb/custom-icons/blob/master/custom-icons.png)
+![Custom icons](https://github.com/Mariusthvdb/Custom-icons/blob/main/custom-icons.png)
 
 ## Icons
 
