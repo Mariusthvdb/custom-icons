@@ -32,14 +32,38 @@ to your resources file or in Dashboard UI.
 ### Example:
 
 ```
-title: Lights switches
-state_color: true
-type: entities
-entities:
-  - entity: switch.ceiling_light
-    name: Switch Light
-    icon: cil:light-switch
+    - type: entities
+      title: Custom icons
+      state_color: true
+      show_header_toggle: false
+      entities:
+        - entity: switch.tester
+          name: Switch Light
+          icon: cil:light-switch
+        - entity: device_tracker.mijn_mobiel_bt
+          name: My Phone
+          icon: cil:cellphone-iphone
+        - entity: light.alarm
+          name: Ceiling light
+          icon: cil:ikea-death-star
+        - type: section
+          label: Set icon via Custom-ui/customize
+        - light.bureau_left
+        - light.bureau_right
 ```
+
+Of course, you can also get crafty, using [Custom-ui](https://github.com/Mariusthvdb/custom-ui), and set your icons in a template:
+
+```
+homeassistant:
+  customize:
+    light.bureau_left:
+      templates:
+        icon: >
+          return (state === 'on') ? 'cil:desklamp-on' : 'mdi:desk-lamp';
+```
+
+![Custom icons](https://github.com/Mariusthvdb/custom-icons/blob/master/custom-icons.png)
 
 ## Icons
 
