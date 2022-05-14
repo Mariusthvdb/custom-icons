@@ -27,7 +27,7 @@
     <script>
         var app=angular.module("aaHelper",["ngMaterial","ngMessages"]);
         app.controller("AppCtrl",["$scope","$http","$location","$mdDialog","$interval","$mdToast",function(a,f,g){a.use_two_columns=!1;a.meta='{\n "icons": [\n   { "name": "apple-homepod", "author": "arallsopp"},\n   { "name": "laptop-mac",\t"author": "arallsopp"},\n   { "name": "delete-alert", "author": "[@idevo89](https://github.com/idevo89)"}\n  ]\n}';a.icons=[];a.read_meta=function(){try{var e=JSON.parse(a.meta);a.icons=e.icons;a.icons.sort(function(b,d){return b.name>d.name?1:d.name>b.name?-1:0});a.md=
-            "| Icon | Name | Author |";a.md=a.use_two_columns?a.md+" | Icon | Name | Author |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n":a.md+"\n| :--- | :--- | :--- \n";var c=0;angular.forEach(a.icons,function(b){c+=1;console.log("processing ",b);a.md+="| ![cil:"+b.name+"](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/"+b.name+".svg)| "+b.name+" | "+b.author+" |";1<c||!a.use_two_columns?(a.md+="\n",c=0):a.md+=" "})}catch(b){a.icons={},a.md="Could not read JSON. Check syntax"}};
+            "| Icon | Name | Author |";a.md=a.use_two_columns?a.md+" | Icon | Name | Author |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n":a.md+"\n| :--- | :--- | :--- \n";var c=0;angular.forEach(a.icons,function(b){c+=1;console.log("processing ",b);a.md+='| <img src="https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/'+b.name+'.svg" width="24px"/> | '+b.name+" | "+b.author+" |";1<c||!a.use_two_columns?(a.md+="\n",c=0):a.md+=" "})}catch(b){a.icons={},a.md="Could not read JSON. Check syntax"}};
             a.read_meta()}]);
     </script>
 </head>
