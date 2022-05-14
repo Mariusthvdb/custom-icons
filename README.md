@@ -91,8 +91,8 @@ custom-icons includes legacy Mdi icons, and several special purpose icons made o
 | ![cil:home-broken-outline](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/home-broken-outline.svg)| home-broken-outline | MrGrigri |
 | ![cil:home-climate](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/home-climate.svg)| home-climate | arallsopp |
 | ![cil:home-climate-outline](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/home-climate-outline.svg)| home-climate-outline | arallsopp |
-| ![cil:home-export-no-roof](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/home-export-no-roof.svg)| home-export-no-roof | goyney |
-| ![cil:home-import-no-roof](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/home-import-no-roof.svg)| home-import-no-roof | goyney |
+| ![cil:home-export-no-roof-outline](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/home-export-no-roof-outline.svg)| home-export-no-roof-outline | goyney |
+| ![cil:home-import-no-roof-outline](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/home-import-no-roof-outline.svg)| home-import-no-roof-outline | goyney |
 | ![cil:home-pulse](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/home-pulse.svg)| home-pulse | MrGrigri |
 | ![cil:ikea-death-star](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/ikea-death-star.svg)| ikea-death-star | arallsopp |
 | ![cil:laptop-mac](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/laptop-mac.svg)| laptop-mac | [Mdi](https://dev.materialdesignicons.com/changelog) |
