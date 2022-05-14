@@ -195,6 +195,14 @@ const CUSTOM_ICONS_MAP = {
     path:"M19,17v-3h-9v-2h9V9l4,4L19,17z M15,19H3v-8.1l6-6l5.1,5.1v0h2.8L9,2.1l-8,8V21h16v-5h-2V19z", 
     keywords: ["home","export"]
   }, 
+   "delete-alert":{
+    path:"M 11,14L 13,14L 13,9L 11,9L 11,14 Z M 19,4L 19,6L 5,6L 5,4L 8.5,4L 9.5,3L 14.5,3L 15.5,4L 19,4 Z M 6,19L 6,7.00001L 18,7.00001L 18,19C 18,20.1 17.1,21 16,21L 8,21C 6.9,21 6,20.1 6,19 Z M 11,18L 13,18L 13,16L 11,16L 11,18 Z", 
+    keywords: ["delete","bin","waste"]
+  }, 
+   "delete-alert-outline":{
+    path:"M 6,19L 6,7L 18,7L 18,19C 18,20.1 17.1,21 16,21L 8,21C 6.9,21 6,20.1 6,19 Z M 8,9L 8,19L 16,19L 16,9L 8,9 Z M 15.5,4L 19,4L 19,6L 5,6L 5,4L 8.5,4L 9.5,3L 14.5,3L 15.5,4 Z M 11,18L 11,16L 13,16L 13,18L 11,18 Z M 11,14L 11,10L 13,10L 13,14L 11,14 Z", 
+    keywords: ["delete","bin","waste"]
+  }
 };
 
 async function getIcon(name) {
@@ -226,8 +234,8 @@ window.customIconsets = window.customIconsets || {};
 window.customIconsets["cil"] = getIcon;
 
 const Name = "Custom-icons";
-const Version = "0.1.7";
-const Description = "22020513";
+const Version = "0.1.8";
+const Description = "22020514";
 const Url = "https://github.com/Mariusthvdb/custom-icons";
 console.info(
     `%c  ${Name}  \n%c  Version ${Version} ${Description}`,
