@@ -89,8 +89,8 @@ custom-icons includes legacy Mdi icons, and several special purpose icons made o
 | ![cil:earth-vibrate](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/earth-vibrate.svg)| earth-vibrate | MrGrigri |
 | ![cil:home-broken](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/home-broken.svg)| home-broken | MrGrigri |
 | ![cil:home-broken-outline](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/home-broken-outline.svg)| home-broken-outline | MrGrigri |
-| ![cil:home-climate](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/home-climate.svg)| home-climate | arallsopp |
-| ![cil:home-climate-outline](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/home-climate-outline.svg)| home-climate-outline | arallsopp |
+| ![cil:home-climate](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/home-climate.svg)| home-climate | tgrelka |
+| ![cil:home-climate-outline](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/home-climate-outline.svg)| home-climate-outline | boehan |
 | ![cil:home-export-no-roof-outline](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/home-export-no-roof-outline.svg)| home-export-no-roof-outline | goyney |
 | ![cil:home-import-no-roof-outline](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/home-import-no-roof-outline.svg)| home-import-no-roof-outline | goyney |
 | ![cil:home-pulse](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/home-pulse.svg)| home-pulse | MrGrigri |
