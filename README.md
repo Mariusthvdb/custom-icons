@@ -78,14 +78,14 @@ custom-icons includes legacy Mdi icons, and several special purpose icons made o
 
 | Icon | Name | Author |
 | :--- | :--- | :--- 
-| ![cil:apple-homepod](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/apple-homepod.svg)| apple-homepod | arallsopp |
+| ![cil:apple-homepod](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/apple-homepod.svg)| apple-homepod | [arallsopp](https://github.com/arallsopp) |
 | ![cil:apple-homepod-mini](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/apple-homepod-mini.svg)| apple-homepod-mini | arallsopp |
 | ![cil:cellphone-iphone](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/cellphone-iphone.svg)| cellphone-iphone | [Mdi](https://dev.materialdesignicons.com/changelog) |
-| ![cil:corona-virus](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/corona-virus.svg)| corona-virus | Matt8707 |
-| ![cil:delete-alert](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/delete-alert.svg)| delete-alert | idevo89 |
+| ![cil:corona-virus](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/corona-virus.svg)| corona-virus | [Matt8707](https://github.com/Matt8707) |
+| ![cil:delete-alert](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/delete-alert.svg)| delete-alert | [idevo89](https://github.com/idevo89) |
 | ![cil:delete-alert-outline](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/delete-alert-outline.svg)| delete-alert-outline | idevo89 |
-| ![cil:desklamp-on](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/desklamp-on.svg)| desklamp-on | [Mdi](https://dev.materialdesignicons.com/changelog) |
-| ![cil:dishwasher-silverware](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/dishwasher-silverware.svg)| dishwasher-silverware | MrGrigri |
+| ![cil:desklamp-on](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/desklamp-on.svg)| desklamp-on | Mdi |
+| ![cil:dishwasher-silverware](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/dishwasher-silverware.svg)| dishwasher-silverware | [MrGrigri](https://github.com/MrGrigri) |
 | ![cil:docker-watchtower](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/docker-watchtower.svg)| docker-watchtower | Matt8707 |
 | ![cil:earth-alert](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/earth-alert.svg)| earth-alert | MrGrigri |
 | ![cil:earth-vibrate](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/earth-vibrate.svg)| earth-vibrate | MrGrigri |
@@ -93,9 +93,9 @@ custom-icons includes legacy Mdi icons, and several special purpose icons made o
 | ![cil:hdmi-source](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/hdmi-source.svg)| hdmi-source | Matt8707 |
 | ![cil:home-broken](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/home-broken.svg)| home-broken | MrGrigri |
 | ![cil:home-broken-outline](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/home-broken-outline.svg)| home-broken-outline | MrGrigri |
-| ![cil:home-climate](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/home-climate.svg)| home-climate | arallsopp |
-| ![cil:home-climate-outline](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/home-climate-outline.svg)| home-climate-outline | arallsopp |
-| ![cil:home-export-no-roof-outline](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/home-export-no-roof-outline.svg)| home-export-no-roof-outline | goyney |
+| ![cil:home-climate](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/home-climate.svg)| home-climate | [tgrelka](https://github.com/tgrelka) |
+| ![cil:home-climate-outline](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/home-climate-outline.svg)| home-climate-outline | [boehan](https://github.com/boehan) |
+| ![cil:home-export-no-roof-outline](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/home-export-no-roof-outline.svg)| home-export-no-roof-outline | [goyney](https://github.com/goyney) |
 | ![cil:home-import-no-roof-outline](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/home-import-no-roof-outline.svg)| home-import-no-roof-outline | goyney |
 | ![cil:home-pulse](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/home-pulse.svg)| home-pulse | MrGrigri |
 | ![cil:hue](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/hue.svg)| hue | Matt8707 |
@@ -103,7 +103,7 @@ custom-icons includes legacy Mdi icons, and several special purpose icons made o
 | ![cil:imac-alternative](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/imac-alternative.svg)| imac-alternative | Matt8707 |
 | ![cil:imac-ssd](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/imac-ssd.svg)| imac-ssd | Matt8707 |
 | ![cil:iphone-modern](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/iphone-modern.svg)| iphone-modern | Matt8707 |
-| ![cil:laptop-mac](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/laptop-mac.svg)| laptop-mac | [Mdi](https://dev.materialdesignicons.com/changelog) |
+| ![cil:laptop-mac](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/laptop-mac.svg)| laptop-mac | Mdi |
 | ![cil:light-switch](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/light-switch.svg)| light-switch | arallsopp |
 | ![cil:lock](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/lock.svg)| lock | Matt8707 |
 | ![cil:pedestal-fan](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/pedestal-fan.svg)| pedestal-fan | Matt8707 |
@@ -113,7 +113,7 @@ custom-icons includes legacy Mdi icons, and several special purpose icons made o
 | ![cil:roborock-sidebrush](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/roborock-sidebrush.svg)| roborock-sidebrush | Matt8707 |
 | ![cil:roborock-vacuum](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/roborock-vacuum.svg)| roborock-vacuum | Matt8707 |
 | ![cil:roborock-vacuum-map](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/roborock-vacuum-map.svg)| roborock-vacuum-map | Matt8707 |
-| ![cil:shutter-0](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/shutter-0.svg)| shutter-0 | g-kiss |
+| ![cil:shutter-0](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/shutter-0.svg)| shutter-0 | [g-kiss](https://github.com/g-kiss) |
 | ![cil:shutter-1](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/shutter-1.svg)| shutter-1 | g-kiss |
 | ![cil:shutter-2](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/shutter-2.svg)| shutter-2 | g-kiss |
 | ![cil:shutter-3](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/shutter-3.svg)| shutter-3 | g-kiss |
@@ -122,7 +122,7 @@ custom-icons includes legacy Mdi icons, and several special purpose icons made o
 | ![cil:sun-angle](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/sun-angle.svg)| sun-angle | goyney |
 | ![cil:sun-angle-variant](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/sun-angle-variant.svg)| sun-angle-variant | goyney |
 | ![cil:synology-nas](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/synology-nas.svg)| synology-nas | Matt8707 |
-| ![cil:table-cylinder-lamp](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/table-cylinder-lamp.svg)| table-cylinder-lamp | GunterAV |
+| ![cil:table-cylinder-lamp](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/table-cylinder-lamp.svg)| table-cylinder-lamp | [GunterAV](https://github.com/GunterAV) |
 | ![cil:thermometer-empty](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/thermometer-empty.svg)| thermometer-empty | goyney |
 | ![cil:thermometer-full](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/thermometer-full.svg)| thermometer-full | goyney |
 | ![cil:tv](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/tv.svg)| tv | Matt8707 |
@@ -132,6 +132,19 @@ custom-icons includes legacy Mdi icons, and several special purpose icons made o
 
 
 [//]: # (End Custom Icons)
+
+## Icon authors
+
+[Mdi](https://dev.materialdesignicons.com/changelog)
+[arallsopp](https://github.com/arallsopp)
+[MrGrigri](https://github.com/MrGrigri)
+[idevo89](https://github.com/idevo89)
+[goyney](https://github.com/goyney)
+[g-kiss](https://github.com/g-kiss)
+[GunterAV](https://github.com/GunterAV)
+[Matt8707](https://github.com/Matt8707)
+[tgrelka](https://github.com/tgrelka)
+[boehan](https://github.com/boehan)
 
 ## Want to join and add an icon?
 
