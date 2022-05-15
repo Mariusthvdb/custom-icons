@@ -26,9 +26,10 @@
     </style>
     <script>
         var app=angular.module("aaHelper",["ngMaterial","ngMessages"]);
-        app.controller("AppCtrl",["$scope","$http","$location","$mdDialog","$interval","$mdToast",function(a,f,g){a.use_two_columns=!1;a.use_image_tags=!1;a.meta='{\n "icons": [\n   { "name": "apple-homepod", "author": "arallsopp"},\n   { "name": "laptop-mac",\t"author": "arallsopp"},\n   { "name": "delete-alert", "author": "[@idevo89](https://github.com/idevo89)"}\n  ]\n}';a.icons=[];a.read_meta=function(){try{var e=JSON.parse(a.meta);a.icons=e.icons;a.icons.sort(function(b,d){return b.name>d.name?1:d.name>
-        b.name?-1:0});a.md="| Icon | Name | Author |";a.md=a.use_two_columns?a.md+" | Icon | Name | Author |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n":a.md+"\n| :--- | :--- | :--- \n";var c=0;angular.forEach(a.icons,function(b){c+=1;console.log("processing ",b);a.md=a.use_image_tags?a.md+('| <img src="https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/'+b.name+'.svg" width="24px"/> | '+b.name+" | "+b.author+" |"):a.md+("| ![cil:"+b.name+"](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/"+
-            b.name+".svg)| "+b.name+" | "+b.author+" |");1<c||!a.use_two_columns?(a.md+="\n",c=0):a.md+=" "})}catch(b){a.icons={},a.md="Could not read JSON. Check syntax"}};a.read_meta()}]);
+        app.controller("AppCtrl",["$scope","$http","$location","$mdDialog","$interval","$mdToast",function(a,g,h){a.use_two_columns=!1;a.use_image_tags=!1;a.dashboard_code="";a.meta='{\n "icons": [\n   { "name": "apple-homepod", "author": "arallsopp"},\n   { "name": "laptop-mac",\t"author": "arallsopp"},\n   { "name": "delete-alert", "author": "[@idevo89](https://github.com/idevo89)"}\n  ]\n}';a.icons=[];a.read_meta=function(){try{var e=JSON.parse(a.meta);a.icons=e.icons;a.icons.sort(function(b,d){return b.name>
+        d.name?1:d.name>b.name?-1:0});a.md="| Icon | Name | Author |";a.md=a.use_two_columns?a.md+" | Icon | Name | Author |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n":a.md+"\n| :--- | :--- | :--- \n";a.dashboard_code="    - type: custom:auto-entities\n      card:\n        type: entities\n        title: Test Custom icons\n        state_color: true\n      filter:\n        template: |\n          [{% for i in [";var c=0;angular.forEach(a.icons,function(b){c+=1;console.log("processing ",b);a.md=a.use_image_tags?
+            a.md+('| <img src="https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/'+b.name+'.svg" width="24px"/> | '+b.name+" | "+b.author+" |"):a.md+("| ![cil:"+b.name+"](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/"+b.name+".svg)| "+b.name+" | "+b.author+" |");1<c||!a.use_two_columns?(a.md+="\n",c=0):a.md+=" "});var f=a.icons.map(function(b){return"'"+b.name+"'"}).join(",");a.dashboard_code+=f;a.dashboard_code+="] %}\n               {{\n                { 'entity':'input_boolean.test',\n                  'icon': 'cil:' + i,\n                  'name': i\n                }\n              }},\n          {% endfor %}]"}catch(b){a.icons=
+            {},a.md="Could not read JSON. Check syntax"}};a.read_meta()}]);
     </script>
 </head>
 <body data-ng-controller="AppCtrl">
@@ -79,8 +80,9 @@
             </md-card-content>
         </md-card>
     </div>
-    <div>
-        <md-card>
+
+    <div data-layout-gt-sm="row">
+        <md-card flex="">
             <md-card-title>
                 <md-card-title-text>
                     <span class="md-headline">Sample Table Output</span>
@@ -97,6 +99,22 @@
                     </tr>
                 </table>
             </md-card-content>
+        </md-card>
+
+        <md-card flex="">
+            <md-card-title>
+                <md-card-title-text>
+                    <span class="md-headline">Sample Dashboard Entries</span>
+                    <span class="md-subhead">Based upon the 'with entities' view</span>
+                </md-card-title-text>
+            </md-card-title>
+            <md-card-content>
+                <md-input-container class="md-block">
+                    <label>Lovelace Source</label>
+                    <textarea data-ng-model="dashboard_code"></textarea>
+                </md-input-container>
+            </md-card-content>
+
         </md-card>
     </div>
 </md-content>
