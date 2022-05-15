@@ -81,34 +81,54 @@ custom-icons includes legacy Mdi icons, and several special purpose icons made o
 | ![cil:apple-homepod](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/apple-homepod.svg)| apple-homepod | arallsopp |
 | ![cil:apple-homepod-mini](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/apple-homepod-mini.svg)| apple-homepod-mini | arallsopp |
 | ![cil:cellphone-iphone](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/cellphone-iphone.svg)| cellphone-iphone | [Mdi](https://dev.materialdesignicons.com/changelog) |
+| ![cil:corona-virus](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/corona-virus.svg)| corona-virus | Matt8708 |
 | ![cil:delete-alert](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/delete-alert.svg)| delete-alert | idevo89 |
 | ![cil:delete-alert-outline](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/delete-alert-outline.svg)| delete-alert-outline | idevo89 |
 | ![cil:desklamp-on](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/desklamp-on.svg)| desklamp-on | [Mdi](https://dev.materialdesignicons.com/changelog) |
 | ![cil:dishwasher-silverware](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/dishwasher-silverware.svg)| dishwasher-silverware | MrGrigri |
+| ![cil:docker-watchtower](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/docker-watchtower.svg)| docker-watchtower | Matt8708 |
 | ![cil:earth-alert](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/earth-alert.svg)| earth-alert | MrGrigri |
 | ![cil:earth-vibrate](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/earth-vibrate.svg)| earth-vibrate | MrGrigri |
+| ![cil:eq-calibrate](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/eq-calibrate.svg)| eq-calibrate | Matt8708 |
+| ![cil:hdmi-source](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/hdmi-source.svg)| hdmi-source | Matt8708 |
 | ![cil:home-broken](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/home-broken.svg)| home-broken | MrGrigri |
 | ![cil:home-broken-outline](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/home-broken-outline.svg)| home-broken-outline | MrGrigri |
-| ![cil:home-climate](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/home-climate.svg)| home-climate | tgrelka |
-| ![cil:home-climate-outline](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/home-climate-outline.svg)| home-climate-outline | boehan |
+| ![cil:home-climate](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/home-climate.svg)| home-climate | arallsopp |
+| ![cil:home-climate-outline](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/home-climate-outline.svg)| home-climate-outline | arallsopp |
 | ![cil:home-export-no-roof-outline](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/home-export-no-roof-outline.svg)| home-export-no-roof-outline | goyney |
 | ![cil:home-import-no-roof-outline](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/home-import-no-roof-outline.svg)| home-import-no-roof-outline | goyney |
 | ![cil:home-pulse](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/home-pulse.svg)| home-pulse | MrGrigri |
+| ![cil:hue](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/hue.svg)| hue | Matt8708 |
 | ![cil:ikea-death-star](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/ikea-death-star.svg)| ikea-death-star | arallsopp |
+| ![cil:imac-alternative](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/imac-alternative.svg)| imac-alternative | Matt8708 |
+| ![cil:imac-ssd](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/imac-ssd.svg)| imac-ssd | Matt8708 |
+| ![cil:iphone-modern](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/iphone-modern.svg)| iphone-modern | Matt8708 |
 | ![cil:laptop-mac](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/laptop-mac.svg)| laptop-mac | [Mdi](https://dev.materialdesignicons.com/changelog) |
 | ![cil:light-switch](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/light-switch.svg)| light-switch | arallsopp |
+| ![cil:lock](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/lock.svg)| lock | Matt8708 |
+| ![cil:pedestal-fan](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/pedestal-fan.svg)| pedestal-fan | Matt8708 |
+| ![cil:roborock-filter](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/roborock-filter.svg)| roborock-filter | Matt8708 |
+| ![cil:roborock-mainbrush](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/roborock-mainbrush.svg)| roborock-mainbrush | Matt8708 |
+| ![cil:roborock-sensor](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/roborock-sensor.svg)| roborock-sensor | Matt8708 |
+| ![cil:roborock-sidebrush](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/roborock-sidebrush.svg)| roborock-sidebrush | Matt8708 |
+| ![cil:roborock-vacuum](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/roborock-vacuum.svg)| roborock-vacuum | Matt8708 |
+| ![cil:roborock-vacuum-map](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/roborock-vacuum-map.svg)| roborock-vacuum-map | Matt8708 |
 | ![cil:shutter-0](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/shutter-0.svg)| shutter-0 | g-kiss |
 | ![cil:shutter-1](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/shutter-1.svg)| shutter-1 | g-kiss |
 | ![cil:shutter-2](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/shutter-2.svg)| shutter-2 | g-kiss |
 | ![cil:shutter-3](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/shutter-3.svg)| shutter-3 | g-kiss |
 | ![cil:shutter-4](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/shutter-4.svg)| shutter-4 | g-kiss |
+| ![cil:studio-monitor](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/studio-monitor.svg)| studio-monitor | Matt8708 |
 | ![cil:sun-angle](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/sun-angle.svg)| sun-angle | goyney |
 | ![cil:sun-angle-variant](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/sun-angle-variant.svg)| sun-angle-variant | goyney |
+| ![cil:synology-nas](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/synology-nas.svg)| synology-nas | Matt8708 |
 | ![cil:table-cylinder-lamp](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/table-cylinder-lamp.svg)| table-cylinder-lamp | GunterAV |
 | ![cil:thermometer-empty](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/thermometer-empty.svg)| thermometer-empty | goyney |
 | ![cil:thermometer-full](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/thermometer-full.svg)| thermometer-full | goyney |
+| ![cil:tv](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/tv.svg)| tv | Matt8708 |
 | ![cil:uplighter](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/uplighter.svg)| uplighter | GunterAV |
 | ![cil:uplighter-2-way](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/uplighter-2-way.svg)| uplighter-2-way | GunterAV |
+
 
 
 [//]: # (End Custom Icons)
