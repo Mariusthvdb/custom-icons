@@ -71,8 +71,17 @@ homeassistant:
 
 ### Custom made and legacy
 
-custom-icons includes legacy Mdi icons, and several special purpose icons made on request
-(more to be listed below, for the full set, check the .js file please)
+custom-icons includes legacy Mdi icons, and several special purpose icons made on request.
+
+On:
+
+<img width="505" alt="custom_icons_overview_on" src="https://user-images.githubusercontent.com/33354141/168494326-90055fca-0400-45ba-9540-d6c14a54efc0.png">
+
+Off:
+
+<img width="508" alt="custom_icons_overview_off" src="https://user-images.githubusercontent.com/33354141/168494339-b601eae6-a704-4f7c-94e4-b6eda75d822f.png">
+
+Listed with icon author:
 
 [//]: # (Start Custom Icons)
 
@@ -132,6 +141,7 @@ custom-icons includes legacy Mdi icons, and several special purpose icons made o
 
 
 [//]: # (End Custom Icons)
+
 
 ## Icon authors
 
