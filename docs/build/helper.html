@@ -1,133 +1,114 @@
-<!DOCTYPE html>
-<html data-ng-app="aaHelper" data-ng-strict-di
-      lang="en" prefix="og: http://ogp.me/ns#">
-<head>
-    <title>Icon Helper</title>
-    <meta name = "viewport" content = "width=device-width, minimum-scale=1.0, maximum-scale = 1.0, user-scalable = no">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+"use strict";
+var app = angular.module("aaHelper", ['ngMaterial', 'ngMessages']);
 
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular-animate.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular-aria.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular-messages.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular-cookies.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular-sanitize.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.12/angular-material.min.js"></script>
+app.controller('AppCtrl', ['$scope', '$http','$location','$mdDialog','$interval','$mdToast',
+    function($scope, $http, $mdDialog, $mdToast) {
+        $scope.use_two_columns = false;
+        $scope.use_image_tags = false;
+        $scope.dashboard_code = '';
+        $scope.meta = '';
+        $scope.warning = false;
 
-    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.12/angular-material.min.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
-    <style>
-        textarea{
-            font-family: monospace;
+        //try to get meta from localstorage
+        if (typeof(Storage) !== "undefined" && localStorage.getItem('meta') !== null) {
+            $scope.meta = localStorage.getItem('meta');
+        }else {
+            $scope.meta = '{\n' +
+                ' "icons": [\n' +
+                '   { "name": "apple-homepod", "author": "[@arallsopp](https://github.com/arallsopp)"},\n' +
+                '   { "name": "delete-alert", "author": "[@idevo89](https://github.com/idevo89)"}\n' +
+                '  ]\n' +
+                '}';
         }
-        .in_error{
-            background-color: #efd3d3 !important;
+
+        $scope.icons = [];
+        $scope.read_meta = function(){
+            let json;
+            try {
+                json = JSON.parse($scope.meta);
+                $scope.icons = json.icons;
+
+                //sort the icons
+                $scope.icons.sort((a, b) => (a.name > b.name) ? 1 : ((b.name > a.name) ? -1 : 0))
+
+                //create the markdown header
+                $scope.md = '| Icon | Name | Author |';
+                if($scope.use_two_columns){
+                    $scope.md += ' | Icon | Name | Author |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n';
+                }else{
+                    $scope.md += '\n| :--- | :--- | :--- \n';
+                }
+
+                // create the lovelace dash code header:
+                $scope.dashboard_code = '    - type: custom:auto-entities\n' +
+                    '      card:\n' +
+                    '        type: entities\n' +
+                    '        title: Test Custom icons\n' +
+                    '        state_color: true\n' +
+                    '      filter:\n' +
+                    '        template: |\n' +
+                    '          [{% for i in [';
+
+                let row_counter = 0,
+                    entities = [];
+
+                angular.forEach($scope.icons, function (icon) {
+                    row_counter += 1;
+                    console.log('processing ', icon);
+
+                    //generate row for the markdown table
+                    if($scope.use_image_tags) {
+                        $scope.md += '| <img src="https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/' + icon.name + '.svg" width="24px"/> | ' + icon.name + ' | ' + icon.author + ' |';
+                    }else{
+                        $scope.md += '| ![cil:' + icon.name + '](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/' + icon.name + '.svg)| ' + icon.name + ' | ' + icon.author + ' |';
+                    }
+                    if (row_counter > 1 || (!$scope.use_two_columns)) {
+                        // this is the end of the row;
+                        $scope.md += '\n';
+                        row_counter = 0;
+                    } else {
+                        $scope.md += ' ';
+                    }
+                });
+
+                //now generate the dash entries
+                let icon_list = $scope.icons.map(function (icon) {
+                    return "'" + icon.name + "'";
+                }).join(',');
+
+                $scope.dashboard_code += icon_list;
+                $scope.dashboard_code += '] %}\n' +
+                    '               {{\n' +
+                    '                { \'entity\':\'input_boolean.test\',\n' +
+                    '                  \'icon\': \'cil:\' + i,\n' +
+                    '                  \'name\': i\n' +
+                    '                }\n' +
+                    '              }},\n' +
+                    '          {% endfor %}]';
+                localStorage.setItem('meta',$scope.meta);
+                $scope.warning = false;
+            }catch (e){
+                $scope.icons = {};
+                $scope.warning = 'Could not read JSON. Check syntax';
+                $scope.md = $scope.warning;
+                $scope.dashboard_code = $scope.warning;
+
+
+            }
         }
-    </style>
-    <script src="script.js"></script>
-</head>
-<body data-ng-controller="AppCtrl">
 
-<md-content>
-    <md-tabs md-dynamic-height md-border-bottom>
-        <md-tab label="Input JSON">
-            <md-card flex="">
-                <md-card-title>
-                    <md-card-title-text>
-                        <span class="md-headline">Inputs</span>
-                        <span class="md-subhead">Choose your layout and paste your JSON file into the box below.
-                        <span data-ng-if="icons.length">The current config includes {{icons.length}} icon(s).</span></span>
-                    </md-card-title-text>
-                </md-card-title>
-                <md-card-content data-layout-align="start">
-                    <md-input-container>
-                        <md-switch ng-model="use_two_columns"
-                                   data-ng-change="read_meta()"
-                                   aria-label="Use two columns">
-                            Use two columns
-                        </md-switch>
-                    </md-input-container>
-                    <md-input-container>
-                        <md-button class="md-raised md-primary" data-ng-click="get_from_repo()">Get from repo</md-button>
-                    </md-input-container>
-                    <hr/>
-
-                    <md-input-container class="md-block">
-                        <label>JSON</label>
-                        <textarea data-ng-class="{in_error: warning}"
-                                  data-ng-model="meta"
-                                  data-ng-change="read_meta()"></textarea>
-                    </md-input-container>
-
-                </md-card-content>
-            </md-card>
-
-        </md-tab>
-        <md-tab label="Markdown Code">
-            <md-card flex="">
-                <md-card-title>
-                    <md-card-title-text>
-                        <span class="md-headline">Markdown</span>
-                        <span class="md-subhead">This is generated automatically from the JSON. Copy and paste it into your readme</span>
-                    </md-card-title-text>
-                </md-card-title>
-                <md-card-content>
-                    <md-input-container>
-                        <md-switch ng-model="use_image_tags"
-                                   data-ng-change="read_meta()"
-                                   aria-label="Use image tags">
-                            Use image tags
-                        </md-switch>
-                    </md-input-container>
-                    <md-input-container class="md-block">
-                        <label>Markdown Source</label>
-                        <textarea data-ng-model="md"></textarea>
-                    </md-input-container>
-                </md-card-content>
-            </md-card>
-
-        </md-tab>
-        <md-tab label="Dashboard">
-            <md-card flex="">
-                <md-card-title>
-                    <md-card-title-text>
-                        <span class="md-headline">Sample Dashboard Entries</span>
-                        <span class="md-subhead">Based upon the 'with entities' view</span>
-                    </md-card-title-text>
-                </md-card-title>
-                <md-card-content>
-                    <md-input-container class="md-block">
-                        <label>Lovelace Source</label>
-                        <textarea data-ng-model="dashboard_code"></textarea>
-                    </md-input-container>
-                </md-card-content>
-
-            </md-card>
-        </md-tab>
-        <md-tab label="Sample Table">
-            <md-card flex="">
-                <md-card-title>
-                    <md-card-title-text>
-                        <span class="md-headline">Sample Table Output</span>
-                        <span class="md-subhead">This is generated automatically from the JSON. <p data-ng-if="use_two_columns">NB: Can't handle two columns in this view right now, but the markdown and images should work!</p></span>
-                    </md-card-title-text>
-                </md-card-title>
-                <md-card-content>
-                    <table border="1">
-                        <tr><th>Icon</th><th>Name</th><th>Author</th></tr>
-                        <tr data-ng-repeat="icon in icons">
-                            <td><img width="24px" data-ng-src="../svgs/{{icon.name}}.svg"/></td>
-                            <td>{{icon.name}}</td>
-                            <td>{{icon.author}}</td>
-                        </tr>
-                    </table>
-                </md-card-content>
-            </md-card>
-        </md-tab>
-    </md-tabs>
-</md-content>
-</body>
-</html>
+        $scope.get_from_repo = function(){
+            $http({
+                method: 'GET',
+                url: 'https://raw.githubusercontent.com/Mariusthvdb/custom-icons/main/docs/json/custom-icons.json'
+            }).then(function successCallback(response) {
+                $scope.meta = JSON.stringify(response.data,null,2);
+                $scope.read_meta();
+            }, function errorCallback(response) {
+                // called asynchronously if an error occurs
+                // or server returns response with an error status.
+            });
+        }
+        $scope.read_meta();
+    }
+]);
