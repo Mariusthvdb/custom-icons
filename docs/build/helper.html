@@ -87,6 +87,10 @@
                             Use image tags
                         </md-switch>
                     </md-input-container>
+                    <md-input-container>
+                        <md-button class="md-raised md-primary" data-ng-click="copyToClipboard(md, 'Copied markdown')">Copy to Markdown to clipboard</md-button>
+                    </md-input-container>
+
                     <md-input-container class="md-block">
                         <label>Markdown Source</label>
                         <textarea data-ng-model="md"></textarea>
@@ -104,6 +108,10 @@
                     </md-card-title-text>
                 </md-card-title>
                 <md-card-content>
+                    <md-input-container>
+                        <md-button class="md-raised md-primary" data-ng-click="copyToClipboard(dashboard_code, 'Copied dash code')">Copy to Dash code to clipboard</md-button>
+                    </md-input-container>
+
                     <md-input-container class="md-block">
                         <label>Lovelace Source</label>
                         <textarea data-ng-model="dashboard_code"></textarea>

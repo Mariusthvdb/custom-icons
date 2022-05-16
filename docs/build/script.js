@@ -1,8 +1,8 @@
 "use strict";
 var app = angular.module("aaHelper", ['ngMaterial', 'ngMessages']);
 
-app.controller('AppCtrl', ['$scope', '$http','$location','$mdDialog','$interval','$mdToast',
-    function($scope, $http, $mdDialog, $mdToast) {
+app.controller('AppCtrl', ['$scope', '$http','$mdToast',
+    function($scope, $http, $mdToast) {
         $scope.use_two_columns = false;
         $scope.use_image_tags = false;
         $scope.dashboard_code = '';
@@ -104,11 +104,42 @@ app.controller('AppCtrl', ['$scope', '$http','$location','$mdDialog','$interval'
             }).then(function successCallback(response) {
                 $scope.meta = JSON.stringify(response.data,null,2);
                 $scope.read_meta();
+                $scope.showToast('Imported JSON from repo');
             }, function errorCallback(response) {
                 // called asynchronously if an error occurs
                 // or server returns response with an error status.
+                $scope.showToast('Could not import JSON from repo');
+            });
+        }
+
+        $scope.copyToClipboard = function (content,msg) {
+            let copyElement = document.createElement("textarea");
+            copyElement.style.position = 'fixed';
+            copyElement.style.opacity = '0';
+            copyElement.textContent =  (content);
+
+            let body = document.getElementsByTagName('body')[0];
+            body.appendChild(copyElement);
+            copyElement.select();
+            document.execCommand('copy');
+            body.removeChild(copyElement);
+
+            $scope.showToast(typeof (msg)==="undefined" ? 'Copied to clipboard' : msg);
+        }
+
+        $scope.showToast = function(message){
+            $mdToast.show(
+                $mdToast.simple()
+                    .textContent(message)
+                    .hideDelay(3000))
+                .then(function() {
+                    // Toast dismissed.
+                }).catch(function() {
+                    //toast failed or got closed over
             });
         }
         $scope.read_meta();
     }
 ]);
+
+
