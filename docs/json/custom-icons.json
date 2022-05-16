@@ -1,53 +1,200 @@
 {
- "icons": [
-   { "name": "apple-homepod", "author": "arallsopp"},
-   { "name": "apple-homepod-mini", "author": "arallsopp"},
-   { "name": "cellphone-iphone", "author": "[Mdi](https://dev.materialdesignicons.com/changelog)"},
-   { "name": "laptop-mac", "author": "[Mdi](https://dev.materialdesignicons.com/changelog)"},
-   { "name": "desklamp-on", "author": "[Mdi](https://dev.materialdesignicons.com/changelog)"},
-   { "name": "delete-alert", "author": "idevo89"},
-   { "name": "delete-alert-outline", "author": "idevo89"},
-   { "name": "dishwasher-silverware", "author": "MrGrigri"},
-   { "name": "earth-alert", "author": "MrGrigri"},
-   { "name": "earth-vibrate", "author": "MrGrigri"},
-   { "name": "home-broken", "author": "MrGrigri"},
-   { "name": "home-broken-outline", "author": "MrGrigri"},
-   { "name": "home-export-no-roof-outline", "author": "goyney"},
-   { "name": "home-import-no-roof-outline", "author": "goyney"},
-   { "name": "home-climate", "author": "arallsopp"},
-   { "name": "home-climate-outline", "author": "arallsopp"},
-   { "name": "home-pulse", "author": "MrGrigri"},
-   { "name": "light-switch", "author": "arallsopp"},
-   { "name": "shutter-0", "author": "g-kiss"},
-   { "name": "shutter-1", "author": "g-kiss"},
-   { "name": "shutter-2", "author": "g-kiss"},
-   { "name": "shutter-3", "author": "g-kiss"},
-   { "name": "shutter-4", "author": "g-kiss"},
-   { "name": "ikea-death-star", "author": "arallsopp"},
-   { "name": "table-cylinder-lamp", "author": "GunterAV"},
-   { "name": "uplighter", "author": "GunterAV"},
-   { "name": "uplighter-2-way", "author": "GunterAV"},
-   { "name": "sun-angle", "author": "goyney"},
-   { "name": "sun-angle-variant","author": "goyney"},
-   { "name": "thermometer-empty", "author": "goyney"},
-   { "name": "thermometer-full", "author": "goyney"},
-   { "name": "roborock-sensor", "author": "Matt8707"},
-   { "name": "roborock-filter", "author": "Matt8707"},
-   { "name": "roborock-mainbrush", "author": "Matt8707"},
-   { "name": "roborock-sidebrush", "author": "Matt8707"},
-   { "name": "roborock-vacuum", "author": "Matt8707"},
-   { "name": "roborock-vacuum-map", "author": "Matt8707"},
-   { "name": "docker-watchtower", "author":"Matt8707"},
-   { "name": "synology-nas", "author": "Matt8707"},
-   { "name": "imac-ssd", "author": "Matt8707"},
-   { "name": "studio-monitor", "author": "Matt8707"},
-   { "name": "eq-calibrate", "author": "Matt8707"},
-   { "name": "pedestal-fan", "author": "Matt8707"},
-   { "name": "tv", "author": "Matt8707"},
-   { "name": "hdmi-source", "author": "Matt8707"},
-   { "name": "iphone-modern", "author": "Matt8707"},
-   { "name": "lock","author": "Matt8707"},
-   { "name": "hue", "author": "Matt8707"},
-   { "name": "imac-alternative", "author": "Matt8707"}
+  "icons": [
+    {
+      "name": "apple-homepod",
+      "author": "[arallsopp](https://github.com/arallsopp/hass-hue-icons)"
+    },
+    {
+      "name": "apple-homepod-mini",
+      "author": "[arallsopp](https://github.com/arallsopp/hass-hue-icons)"
+    },
+    {
+      "name": "cellphone-iphone",
+      "author": "[Mdi](https://dev.materialdesignicons.com/changelog)"
+    },
+    {
+      "name": "laptop-mac",
+      "author": "[Mdi](https://dev.materialdesignicons.com/changelog)"
+    },
+    {
+      "name": "desklamp-on",
+      "author": "[Mdi](https://dev.materialdesignicons.com/changelog)"
+    },
+    {
+      "name": "delete-alert",
+      "author": "[idevo89](https://github.com/idevo89)"
+    },
+    {
+      "name": "delete-alert-outline",
+      "author": "[idevo89](https://github.com/idevo89)"
+    },
+    {
+      "name": "dishwasher-silverware",
+      "author": "[MrGrigri](https://github.com/MrGrigri)"
+    },
+    {
+      "name": "earth-alert",
+      "author": "[MrGrigri](https://github.com/MrGrigri)"
+    },
+    {
+      "name": "earth-vibrate",
+      "author": "[MrGrigri](https://github.com/MrGrigri)"
+    },
+    {
+      "name": "home-broken",
+      "author": "[MrGrigri](https://github.com/MrGrigri)"
+    },
+    {
+      "name": "home-broken-outline",
+      "author": "[MrGrigri](https://github.com/MrGrigri)"
+    },
+    {
+      "name": "home-export-no-roof-outline",
+      "author": "[goyney](https://github.com/goyney)"
+    },
+    {
+      "name": "home-import-no-roof-outline",
+      "author": "[goyney](https://github.com/goyney)"
+    },
+    {
+      "name": "home-climate",
+      "author": "[arallsopp](https://github.com/arallsopp/hass-hue-icons)"
+    },
+    {
+      "name": "home-climate-outline",
+      "author": "[arallsopp](https://github.com/arallsopp/hass-hue-icons)"
+    },
+    {
+      "name": "home-pulse",
+      "author": "[MrGrigri](https://github.com/MrGrigri)"
+    },
+    {
+      "name": "light-switch",
+      "author": "[arallsopp](https://github.com/arallsopp/hass-hue-icons)"
+    },
+    {
+      "name": "shutter-0",
+      "author": "[g-kiss](https://github.com/g-kiss)"
+    },
+    {
+      "name": "shutter-1",
+      "author": "[g-kiss](https://github.com/g-kiss)"
+    },
+    {
+      "name": "shutter-2",
+      "author": "[g-kiss](https://github.com/g-kiss)"
+    },
+    {
+      "name": "shutter-3",
+      "author": "[g-kiss](https://github.com/g-kiss)"
+    },
+    {
+      "name": "shutter-4",
+      "author": "[g-kiss](https://github.com/g-kiss)"
+    },
+    {
+      "name": "ikea-death-star",
+      "author": "[arallsopp](https://github.com/arallsopp/hass-hue-icons)"
+    },
+    {
+      "name": "table-cylinder-lamp",
+      "author": "[GunterAV](https://github.com/GunterAV)"
+    },
+    {
+      "name": "uplighter",
+      "author": "[GunterAV](https://github.com/GunterAV)"
+    },
+    {
+      "name": "uplighter-2-way",
+      "author": "[GunterAV](https://github.com/GunterAV)"
+    },
+    {
+      "name": "sun-angle",
+      "author": "[goyney](https://github.com/goyney)"
+    },
+    {
+      "name": "sun-angle-variant",
+      "author": "[goyney](https://github.com/goyney)"
+    },
+    {
+      "name": "thermometer-empty",
+      "author": "[goyney](https://github.com/goyney)"
+    },
+    {
+      "name": "thermometer-full",
+      "author": "[goyney](https://github.com/goyney)"
+    },
+    {
+      "name": "roborock-sensor",
+      "author": "[Matt8707](https://github.com/Matt8707)"
+    },
+    {
+      "name": "roborock-filter",
+      "author": "[Matt8707](https://github.com/Matt8707)"
+    },
+    {
+      "name": "roborock-mainbrush",
+      "author": "[Matt8707](https://github.com/Matt8707)"
+    },
+    {
+      "name": "roborock-sidebrush",
+      "author": "[Matt8707](https://github.com/Matt8707)"
+    },
+    {
+      "name": "roborock-vacuum",
+      "author": "[Matt8707](https://github.com/Matt8707)"
+    },
+    {
+      "name": "roborock-vacuum-map",
+      "author": "[Matt8707](https://github.com/Matt8707)"
+    },
+    {
+      "name": "docker-watchtower",
+      "author": "[Matt8707](https://github.com/Matt8707)"
+    },
+    {
+      "name": "synology-nas",
+      "author": "[Matt8707](https://github.com/Matt8707)"
+    },
+    {
+      "name": "imac-ssd",
+      "author": "[Matt8707](https://github.com/Matt8707)"
+    },
+    {
+      "name": "studio-monitor",
+      "author": "[Matt8707](https://github.com/Matt8707)"
+    },
+    {
+      "name": "eq-calibrate",
+      "author": "[Matt8707](https://github.com/Matt8707)"
+    },
+    {
+      "name": "pedestal-fan",
+      "author": "[Matt8707](https://github.com/Matt8707)"
+    },
+    {
+      "name": "tv",
+      "author": "[Matt8707](https://github.com/Matt8707)"
+    },
+    {
+      "name": "hdmi-source",
+      "author": "[Matt8707](https://github.com/Matt8707)"
+    },
+    {
+      "name": "iphone-modern",
+      "author": "[Matt8707](https://github.com/Matt8707)"
+    },
+    {
+      "name": "lock",
+      "author": "[Matt8707](https://github.com/Matt8707)"
+    },
+    {
+      "name": "hue",
+      "author": "[Matt8707](https://github.com/Matt8707)"
+    },
+    {
+      "name": "imac-alternative",
+      "author": "[Matt8707](https://github.com/Matt8707)"
+    }
   ]
 }
