@@ -75,11 +75,11 @@ custom-icons includes legacy Mdi icons, and several special purpose icons made o
 
 On:
 
-<img width="505" alt="custom_icons_overview_on" src="https://user-images.githubusercontent.com/33354141/168494326-90055fca-0400-45ba-9540-d6c14a54efc0.png">
+
 
 Off:
 
-<img width="508" alt="custom_icons_overview_off" src="https://user-images.githubusercontent.com/33354141/168494339-b601eae6-a704-4f7c-94e4-b6eda75d822f.png">
+
 
 Listed with icon author:
 
