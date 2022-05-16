@@ -203,6 +203,10 @@
     {
       "name": "cooker-hood-trapezoid",
       "author": "[arallsopp](https://github.com/arallsopp/hass-hue-icons)"
+    },
+    {
+      "name": "cooker-hood-alt",
+      "author": "[arallsopp](https://github.com/arallsopp/hass-hue-icons)"
     }
   ]
 }
