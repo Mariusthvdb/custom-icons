@@ -39,7 +39,9 @@
                 <md-card-title>
                     <md-card-title-text>
                         <span class="md-headline">Inputs</span>
-                        <span class="md-subhead">Choose your layout and paste your JSON file into the box below</span>
+                        <span class="md-subhead">Choose your layout and paste your JSON file into the box below.
+                        <span data-ng-if="icons.length"><br/>The current config describes {{icons.length}} icon(s).</span>
+                        <span data-ng-if="warning"><br/>The current config is not valid.</span></span>
                     </md-card-title-text>
                 </md-card-title>
                 <md-card-content data-layout-align="start">
