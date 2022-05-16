@@ -75,11 +75,13 @@ custom-icons includes legacy Mdi icons, and several special purpose icons made o
 
 On:
 
-<img width="505" alt="custom_icons_overview_on" src="https://user-images.githubusercontent.com/33354141/168494326-90055fca-0400-45ba-9540-d6c14a54efc0.png">
+<img width="502" alt="custom_icons_overview_on" src="https://user-images.githubusercontent.com/33354141/168579999-20322119-112c-4f3f-9475-66d131fe32b7.png">
+
 
 Off:
 
-<img width="508" alt="custom_icons_overview_off" src="https://user-images.githubusercontent.com/33354141/168494339-b601eae6-a704-4f7c-94e4-b6eda75d822f.png">
+<img width="507" alt="custom_icons_overview_off" src="https://user-images.githubusercontent.com/33354141/168580065-edf51b9b-5ca9-4351-ab0c-eb62584187a7.png">
+
 
 Listed with icon author:
 
@@ -90,7 +92,6 @@ Listed with icon author:
 | ![cil:apple-homepod](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/apple-homepod.svg)| apple-homepod | [arallsopp](https://github.com/arallsopp) |
 | ![cil:apple-homepod-mini](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/apple-homepod-mini.svg)| apple-homepod-mini | arallsopp |
 | ![cil:cellphone-iphone](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/cellphone-iphone.svg)| cellphone-iphone | [Mdi](https://dev.materialdesignicons.com/changelog) |
-| ![cil:corona-virus](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/corona-virus.svg)| corona-virus | [Matt8707](https://github.com/Matt8707) |
 | ![cil:delete-alert](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/delete-alert.svg)| delete-alert | [idevo89](https://github.com/idevo89) |
 | ![cil:delete-alert-outline](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/delete-alert-outline.svg)| delete-alert-outline | idevo89 |
 | ![cil:desklamp-on](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/desklamp-on.svg)| desklamp-on | Mdi |
