@@ -38,7 +38,8 @@
                 <md-card-title>
                     <md-card-title-text>
                         <span class="md-headline">Inputs</span>
-                        <span class="md-subhead">Choose your layout and paste your JSON file into the box below</span>
+                        <span class="md-subhead">Choose your layout and paste your JSON file into the box below.
+                        <span data-ng-if="icons.length">The current config includes {{icons.length}} icon(s).</span></span>
                     </md-card-title-text>
                 </md-card-title>
                 <md-card-content data-layout-align="start">
@@ -49,10 +50,11 @@
                             Use two columns
                         </md-switch>
                     </md-input-container>
-
                     <md-input-container>
                         <md-button class="md-raised md-primary" data-ng-click="get_from_repo()">Get from repo</md-button>
                     </md-input-container>
+                    <hr/>
+
                     <md-input-container class="md-block">
                         <label>JSON</label>
                         <textarea data-ng-class="{in_error: warning}"
