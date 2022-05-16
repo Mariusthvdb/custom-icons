@@ -195,6 +195,14 @@
     {
       "name": "imac-alternative",
       "author": "[Matt8707](https://github.com/Matt8707)"
+    },
+    {
+      "name": "cooker-hood-curve",
+      "author": "[arallsopp](https://github.com/arallsopp/hass-hue-icons)"
+    },
+    {
+      "name": "cooker-hood-trapezoid",
+      "author": "[arallsopp](https://github.com/arallsopp/hass-hue-icons)"
     }
   ]
 }

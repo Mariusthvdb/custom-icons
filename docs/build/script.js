@@ -71,7 +71,7 @@ app.controller('AppCtrl', ['$scope', '$http','$mdToast',
                     }
                 });
 
-                //now generate the dash entries
+                //now generate the dash entries 
                 let icon_list = $scope.icons.map(function (icon) {
                     return "'" + icon.name + "'";
                 }).join(',');
