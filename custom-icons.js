@@ -242,8 +242,8 @@ window.customIconsets = window.customIconsets || {};
 window.customIconsets["cil"] = getIcon;
 
 const Name = "Custom-icons";
-const Version = "0.2.0";
-const Description = "22020516";
+const Version = "0.2.1";
+const Description = "22020517";
 const Url = "https://github.com/Mariusthvdb/custom-icons";
 console.info(
     `%c  ${Name}  \n%c  Version ${Version} ${Description}`,
