@@ -92,6 +92,7 @@ Listed with icon author:
 | ![cil:apple-homepod](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/apple-homepod.svg)| apple-homepod | [arallsopp](https://github.com/arallsopp/hass-hue-icons) |
 | ![cil:apple-homepod-mini](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/apple-homepod-mini.svg)| apple-homepod-mini | [arallsopp](https://github.com/arallsopp/hass-hue-icons) |
 | ![cil:cellphone-iphone](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/cellphone-iphone.svg)| cellphone-iphone | [Mdi](https://dev.materialdesignicons.com/changelog) |
+| ![cil:cooker-hood](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/cooker-hood.svg)| cooker-hood | [arallsopp](https://github.com/arallsopp/hass-hue-icons) |
 | ![cil:cooker-hood-curve](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/cooker-hood-curve.svg)| cooker-hood-curve | [arallsopp](https://github.com/arallsopp/hass-hue-icons) |
 | ![cil:cooker-hood-trapezoid](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/cooker-hood-trapezoid.svg)| cooker-hood-trapezoid | [arallsopp](https://github.com/arallsopp/hass-hue-icons) |
 | ![cil:delete-alert](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/delete-alert.svg)| delete-alert | [idevo89](https://github.com/idevo89) |
@@ -139,6 +140,7 @@ Listed with icon author:
 | ![cil:thermometer-full](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/thermometer-full.svg)| thermometer-full | [goyney](https://github.com/goyney) |
 | ![cil:tv](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/tv.svg)| tv | [Matt8707](https://github.com/Matt8707) |
 | ![cil:uplighter](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/uplighter.svg)| uplighter | [GunterAV](https://github.com/GunterAV) |
+| ![cil:uplighter-2-way](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/uplighter-2-way.svg)| uplighter-2-way | [GunterAV](https://github.com/GunterAV) |
 
 [//]: # (End Custom Icons)
 
