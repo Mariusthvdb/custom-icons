@@ -1,0 +1,9 @@
+{
+  "title": "Custom icons",
+  "config": {
+    "abort": {
+      "single_instance_allowed": "Only a single configuration of Custom icons is allowed."
+    },
+    "step": {}
+  }
+}
