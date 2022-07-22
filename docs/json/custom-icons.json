@@ -227,6 +227,18 @@
     {
       "name": "tablet-android",
       "author": "[Mdi](https://dev.materialdesignicons.com/changelog)"
+    },
+    {
+      "name": "laptop-chromebook",
+      "author": "[Mdi](https://dev.materialdesignicons.com/changelog)"
+    },
+    {
+      "name": "laptop-windows",
+      "author": "[Mdi](https://dev.materialdesignicons.com/changelog)"
+    },
+    {
+      "name": "tablet-ipad-legacy",
+      "author": "[Mdi](https://dev.materialdesignicons.com/changelog)"
     }
   ]
 }
