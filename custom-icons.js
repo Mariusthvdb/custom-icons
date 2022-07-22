@@ -230,6 +230,18 @@ const CUSTOM_ICONS_MAP = {
    "tablet-android":{
     path:"M19.25,19H4.75V3H19.25M14,22H10V21H14M18,0H6A3,3 0 0,0 3,3V21A3,3 0 0,0 6,24H18A3,3 0 0,0 21,21V3A3,3 0 0,0 18,0Z",
     keywords: ["computer"]
+  },
+   "tablet-ipad-legacy":{
+    path:"M19,19H4V3H19M11.5,23A1.5,1.5 0 0,1 10,21.5A1.5,1.5 0 0,1 11.5,20A1.5,1.5 0 0,1 13,21.5A1.5,1.5 0 0,1 11.5,23M18.5,0H4.5A2.5,2.5 0 0,0 2,2.5V21.5A2.5,2.5 0 0,0 4.5,24H18.5A2.5,2.5 0 0,0 21,21.5V2.5A2.5,2.5 0 0,0 18.5,0Z",
+    keywords: ["computer","apple"]
+  },
+   "laptop-chromebook":{
+    path:"M20,15H4V5H20M14,18H10V17H14M22,18V3H2V18H0V20H24V18H22Z",
+    keywords: ["computer"]
+  },
+   "laptop-windows":{
+    path:"M3,4H21A1,1 0 0,1 22,5V16A1,1 0 0,1 21,17H22L24,20V21H0V20L2,17H3A1,1 0 0,1 2,16V5A1,1 0 0,1 3,4M4,6V15H20V6H4Z",
+    keywords: ["computer"]
   }
 };
 
@@ -262,7 +274,7 @@ window.customIconsets = window.customIconsets || {};
 window.customIconsets["cil"] = getIcon;
 
 const Name = "Custom-icons";
-const Version = "0.3.3";
+const Version = "0.3.4";
 const Description = "22020722";
 const Url = "https://github.com/Mariusthvdb/custom-icons";
 console.info(
