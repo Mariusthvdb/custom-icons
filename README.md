@@ -85,7 +85,7 @@ Off:
 
 ## Icon finder
 
-Andy created a [nice script](https://arallsopp.github.io/hass-hue-icons/docs/build/tester/iconfinder.html?library=https://mariusthvdb.github.io/custom-icons/custom-icons.js&map=CUSTOM_ICONS_MAP) that we can link to custom-icons library, so you can quickly see and search which icons are available. Thanks!
+Andy created an [Icon Library Cheat Sheet](https://arallsopp.github.io/hass-hue-icons/docs/build/tester/iconfinder.html?library=https://mariusthvdb.github.io/custom-icons/custom-icons.js&map=CUSTOM_ICONS_MAP) that we can link to custom-icons library, so you can quickly see and search which icons are available. Thanks!
 
 Listed with icon author:
 
