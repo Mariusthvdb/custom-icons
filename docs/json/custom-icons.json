@@ -207,6 +207,14 @@
     {
       "name": "cooker-hood-alt",
       "author": "[arallsopp](https://github.com/arallsopp/hass-hue-icons)"
-    }
+    },
+    {
+      "name": "desktop-mac",
+      "author": "[Mdi](https://dev.materialdesignicons.com/changelog)"
+    },
+    {
+      "name": "google-home",
+      "author": "[Mdi](https://dev.materialdesignicons.com/changelog)"
+    },
   ]
 }
