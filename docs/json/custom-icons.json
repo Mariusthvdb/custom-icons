@@ -215,6 +215,18 @@
     {
       "name": "google-home",
       "author": "[Mdi](https://dev.materialdesignicons.com/changelog)"
+    },
+    {
+      "name": "desktop-mac-dashboard",
+      "author": "[Mdi](https://dev.materialdesignicons.com/changelog)"
+    },
+    {
+      "name": "android-messages",
+      "author": "[Mdi](https://dev.materialdesignicons.com/changelog)"
+    },
+    {
+      "name": "tablet-android",
+      "author": "[Mdi](https://dev.materialdesignicons.com/changelog)"
     }
   ]
 }
