@@ -124,7 +124,9 @@ Listed with icon author:
 | ![cil:imac-alternative](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/imac-alternative.svg)| imac-alternative | [Matt8707](https://github.com/Matt8707) |
 | ![cil:imac-ssd](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/imac-ssd.svg)| imac-ssd | [Matt8707](https://github.com/Matt8707) |
 | ![cil:iphone-modern](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/iphone-modern.svg)| iphone-modern | [Matt8707](https://github.com/Matt8707) |
+| ![cil:laptop-chromebook](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/laptop-chromebook.svg)| laptop-chromebook | [Mdi](https://dev.materialdesignicons.com/changelog) |
 | ![cil:laptop-mac](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/laptop-mac.svg)| laptop-mac | [Mdi](https://dev.materialdesignicons.com/changelog) |
+| ![cil:laptop-windows](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/laptop-windows.svg)| laptop-windows | [Mdi](https://dev.materialdesignicons.com/changelog) |
 | ![cil:light-switch](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/light-switch.svg)| light-switch | [arallsopp](https://github.com/arallsopp/hass-hue-icons) |
 | ![cil:lock](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/lock.svg)| lock | [Matt8707](https://github.com/Matt8707) |
 | ![cil:pedestal-fan](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/pedestal-fan.svg)| pedestal-fan | [Matt8707](https://github.com/Matt8707) |
@@ -145,11 +147,13 @@ Listed with icon author:
 | ![cil:synology-nas](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/synology-nas.svg)| synology-nas | [Matt8707](https://github.com/Matt8707) |
 | ![cil:table-cylinder-lamp](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/table-cylinder-lamp.svg)| table-cylinder-lamp | [GunterAV](https://github.com/GunterAV) |
 | ![cil:tablet-android](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/tablet-android.svg)| tablet-android | [Mdi](https://dev.materialdesignicons.com/changelog) |
+| ![cil:tablet-ipad-legacy](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/tablet-ipad-legacy.svg)| tablet-ipad-legacy | [Mdi](https://dev.materialdesignicons.com/changelog) |
 | ![cil:thermometer-empty](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/thermometer-empty.svg)| thermometer-empty | [goyney](https://github.com/goyney) |
 | ![cil:thermometer-full](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/thermometer-full.svg)| thermometer-full | [goyney](https://github.com/goyney) |
 | ![cil:tv](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/tv.svg)| tv | [Matt8707](https://github.com/Matt8707) |
 | ![cil:uplighter](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/uplighter.svg)| uplighter | [GunterAV](https://github.com/GunterAV) |
 | ![cil:uplighter-2-way](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/uplighter-2-way.svg)| uplighter-2-way | [GunterAV](https://github.com/GunterAV) |
+
 
 
 [//]: # (End Custom Icons)
