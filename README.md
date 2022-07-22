@@ -93,6 +93,7 @@ Listed with icon author:
 
 | Icon | Name | Author |
 | :--- | :--- | :--- 
+| ![cil:android-messages](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/android-messages.svg)| android-messages | [Mdi](https://dev.materialdesignicons.com/changelog) |
 | ![cil:apple-homepod](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/apple-homepod.svg)| apple-homepod | [arallsopp](https://github.com/arallsopp/hass-hue-icons) |
 | ![cil:apple-homepod-mini](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/apple-homepod-mini.svg)| apple-homepod-mini | [arallsopp](https://github.com/arallsopp/hass-hue-icons) |
 | ![cil:cellphone-iphone](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/cellphone-iphone.svg)| cellphone-iphone | [Mdi](https://dev.materialdesignicons.com/changelog) |
@@ -103,6 +104,7 @@ Listed with icon author:
 | ![cil:delete-alert-outline](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/delete-alert-outline.svg)| delete-alert-outline | [idevo89](https://github.com/idevo89) |
 | ![cil:desklamp-on](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/desklamp-on.svg)| desklamp-on | [Mdi](https://dev.materialdesignicons.com/changelog) |
 | ![cil:desktop-mac](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/desktop-mac.svg)| desktop-mac | [Mdi](https://dev.materialdesignicons.com/changelog) |
+| ![cil:desktop-mac-dashboard](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/desktop-mac-dashboard.svg)| desktop-mac-dashboard | [Mdi](https://dev.materialdesignicons.com/changelog) |
 | ![cil:dishwasher-silverware](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/dishwasher-silverware.svg)| dishwasher-silverware | [MrGrigri](https://github.com/MrGrigri) |
 | ![cil:docker-watchtower](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/docker-watchtower.svg)| docker-watchtower | [Matt8707](https://github.com/Matt8707) |
 | ![cil:earth-alert](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/earth-alert.svg)| earth-alert | [MrGrigri](https://github.com/MrGrigri) |
@@ -142,12 +144,12 @@ Listed with icon author:
 | ![cil:sun-angle-variant](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/sun-angle-variant.svg)| sun-angle-variant | [goyney](https://github.com/goyney) |
 | ![cil:synology-nas](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/synology-nas.svg)| synology-nas | [Matt8707](https://github.com/Matt8707) |
 | ![cil:table-cylinder-lamp](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/table-cylinder-lamp.svg)| table-cylinder-lamp | [GunterAV](https://github.com/GunterAV) |
+| ![cil:tablet-android](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/tablet-android.svg)| tablet-android | [Mdi](https://dev.materialdesignicons.com/changelog) |
 | ![cil:thermometer-empty](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/thermometer-empty.svg)| thermometer-empty | [goyney](https://github.com/goyney) |
 | ![cil:thermometer-full](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/thermometer-full.svg)| thermometer-full | [goyney](https://github.com/goyney) |
 | ![cil:tv](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/tv.svg)| tv | [Matt8707](https://github.com/Matt8707) |
 | ![cil:uplighter](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/uplighter.svg)| uplighter | [GunterAV](https://github.com/GunterAV) |
 | ![cil:uplighter-2-way](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/uplighter-2-way.svg)| uplighter-2-way | [GunterAV](https://github.com/GunterAV) |
-
 
 
 [//]: # (End Custom Icons)
