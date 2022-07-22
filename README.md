@@ -102,7 +102,6 @@ Listed with icon author:
 | ![cil:cooker-hood-trapezoid](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/cooker-hood-trapezoid.svg)| cooker-hood-trapezoid | [arallsopp](https://github.com/arallsopp/hass-hue-icons) |
 | ![cil:delete-alert](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/delete-alert.svg)| delete-alert | [idevo89](https://github.com/idevo89) |
 | ![cil:delete-alert-outline](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/delete-alert-outline.svg)| delete-alert-outline | [idevo89](https://github.com/idevo89) |
-| ![cil:desklamp-on](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/desklamp-on.svg)| desklamp-on | [Mdi](https://dev.materialdesignicons.com/changelog) |
 | ![cil:desktop-mac](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/desktop-mac.svg)| desktop-mac | [Mdi](https://dev.materialdesignicons.com/changelog) |
 | ![cil:desktop-mac-dashboard](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/desktop-mac-dashboard.svg)| desktop-mac-dashboard | [Mdi](https://dev.materialdesignicons.com/changelog) |
 | ![cil:dishwasher-silverware](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/dishwasher-silverware.svg)| dishwasher-silverware | [MrGrigri](https://github.com/MrGrigri) |
