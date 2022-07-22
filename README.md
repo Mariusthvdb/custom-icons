@@ -102,11 +102,13 @@ Listed with icon author:
 | ![cil:delete-alert](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/delete-alert.svg)| delete-alert | [idevo89](https://github.com/idevo89) |
 | ![cil:delete-alert-outline](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/delete-alert-outline.svg)| delete-alert-outline | [idevo89](https://github.com/idevo89) |
 | ![cil:desklamp-on](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/desklamp-on.svg)| desklamp-on | [Mdi](https://dev.materialdesignicons.com/changelog) |
+| ![cil:desktop-mac](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/desktop-mac.svg)| desktop-mac | [Mdi](https://dev.materialdesignicons.com/changelog) |
 | ![cil:dishwasher-silverware](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/dishwasher-silverware.svg)| dishwasher-silverware | [MrGrigri](https://github.com/MrGrigri) |
 | ![cil:docker-watchtower](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/docker-watchtower.svg)| docker-watchtower | [Matt8707](https://github.com/Matt8707) |
 | ![cil:earth-alert](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/earth-alert.svg)| earth-alert | [MrGrigri](https://github.com/MrGrigri) |
 | ![cil:earth-vibrate](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/earth-vibrate.svg)| earth-vibrate | [MrGrigri](https://github.com/MrGrigri) |
 | ![cil:eq-calibrate](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/eq-calibrate.svg)| eq-calibrate | [Matt8707](https://github.com/Matt8707) |
+| ![cil:google-home](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/google-home.svg)| google-home | [Mdi](https://dev.materialdesignicons.com/changelog) |
 | ![cil:hdmi-source](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/hdmi-source.svg)| hdmi-source | [Matt8707](https://github.com/Matt8707) |
 | ![cil:home-broken](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/home-broken.svg)| home-broken | [MrGrigri](https://github.com/MrGrigri) |
 | ![cil:home-broken-outline](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/home-broken-outline.svg)| home-broken-outline | [MrGrigri](https://github.com/MrGrigri) |
@@ -145,6 +147,8 @@ Listed with icon author:
 | ![cil:tv](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/tv.svg)| tv | [Matt8707](https://github.com/Matt8707) |
 | ![cil:uplighter](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/uplighter.svg)| uplighter | [GunterAV](https://github.com/GunterAV) |
 | ![cil:uplighter-2-way](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/uplighter-2-way.svg)| uplighter-2-way | [GunterAV](https://github.com/GunterAV) |
+
+
 
 [//]: # (End Custom Icons)
 
