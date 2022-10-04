@@ -73,19 +73,9 @@ homeassistant:
 
 custom-icons includes legacy Mdi icons, and several special purpose icons made on request.
 
-On:
-
-<img width="505" alt="custom_icons_overview_on" src="https://user-images.githubusercontent.com/33354141/168770020-5016383a-3b98-499c-9092-98c342f0aeec.png">
-
-
-Off:
-
-<img width="511" alt="custom_icons_overview_off" src="https://user-images.githubusercontent.com/33354141/168770060-d2d284bb-cfe2-4187-a4e9-46d02fa4e74c.png">
-
-
 ## Icon finder
 
-Andy created an [Icon Library Cheat Sheet](https://arallsopp.github.io/hass-hue-icons/docs/build/tester/iconfinder.html?library=https://mariusthvdb.github.io/custom-icons/custom-icons.js&map=CUSTOM_ICONS_MAP) that we can link to custom-icons library, so you can quickly see and search which icons are available. Thanks!
+Andy created an [Icon Library Cheat Sheet](https://arallsopp.github.io/hass-hue-icons/docs/build/tester/iconfinder.html?library=https://mariusthvdb.github.io/custom-icons/custom-icons.js&map=CUSTOM_ICONS_MAP) so you can quickly see and search which icons are available. Thanks!
 
 Listed with icon author:
 
