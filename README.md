@@ -102,6 +102,7 @@ Listed with icon author:
 | ![cil:cooker-hood-trapezoid](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/cooker-hood-trapezoid.svg)| cooker-hood-trapezoid | [arallsopp](https://github.com/arallsopp/hass-hue-icons) |
 | ![cil:delete-alert](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/delete-alert.svg)| delete-alert | [idevo89](https://github.com/idevo89) |
 | ![cil:delete-alert-outline](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/delete-alert-outline.svg)| delete-alert-outline | [idevo89](https://github.com/idevo89) |
+| ![cil:desklamp-on](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/desklamp-on.svg)| desklamp-on | [Mdi](https://dev.materialdesignicons.com/changelog) |
 | ![cil:desktop-mac](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/desktop-mac.svg)| desktop-mac | [Mdi](https://dev.materialdesignicons.com/changelog) |
 | ![cil:desktop-mac-dashboard](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/desktop-mac-dashboard.svg)| desktop-mac-dashboard | [Mdi](https://dev.materialdesignicons.com/changelog) |
 | ![cil:dishwasher-silverware](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/dishwasher-silverware.svg)| dishwasher-silverware | [MrGrigri](https://github.com/MrGrigri) |
@@ -110,6 +111,9 @@ Listed with icon author:
 | ![cil:earth-vibrate](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/earth-vibrate.svg)| earth-vibrate | [MrGrigri](https://github.com/MrGrigri) |
 | ![cil:eq-calibrate](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/eq-calibrate.svg)| eq-calibrate | [Matt8707](https://github.com/Matt8707) |
 | ![cil:google-home](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/google-home.svg)| google-home | [Mdi](https://dev.materialdesignicons.com/changelog) |
+| ![cil:google-home-alt](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/google-home-alt.svg)| google-home-alt | [Mdi](https://dev.materialdesignicons.com/changelog) |
+| ![cil:google-home-alt-off](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/google-home-alt-off.svg)| google-home-alt-off | [Mdi](https://dev.materialdesignicons.com/changelog) |
+| ![cil:google-home-off](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/google-home-off.svg)| google-home-off | [Mdi](https://dev.materialdesignicons.com/changelog) |
 | ![cil:hdmi-source](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/hdmi-source.svg)| hdmi-source | [Matt8707](https://github.com/Matt8707) |
 | ![cil:home-broken](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/home-broken.svg)| home-broken | [MrGrigri](https://github.com/MrGrigri) |
 | ![cil:home-broken-outline](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/home-broken-outline.svg)| home-broken-outline | [MrGrigri](https://github.com/MrGrigri) |
@@ -128,6 +132,12 @@ Listed with icon author:
 | ![cil:laptop-windows](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/laptop-windows.svg)| laptop-windows | [Mdi](https://dev.materialdesignicons.com/changelog) |
 | ![cil:light-switch](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/light-switch.svg)| light-switch | [arallsopp](https://github.com/arallsopp/hass-hue-icons) |
 | ![cil:lock](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/lock.svg)| lock | [Matt8707](https://github.com/Matt8707) |
+| ![cil:lutron-pico](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/lutron-pico.svg)| lutron-pico | [arallsopp](https://github.com/arallsopp/hass-hue-icons) |
+| ![cil:lutron-pico-b1](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/lutron-pico-b1.svg)| lutron-pico-b1 | [arallsopp](https://github.com/arallsopp/hass-hue-icons) |
+| ![cil:lutron-pico-b2](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/lutron-pico-b2.svg)| lutron-pico-b2 | [arallsopp](https://github.com/arallsopp/hass-hue-icons) |
+| ![cil:lutron-pico-b3](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/lutron-pico-b3.svg)| lutron-pico-b3 | [arallsopp](https://github.com/arallsopp/hass-hue-icons) |
+| ![cil:lutron-pico-b4](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/lutron-pico-b4.svg)| lutron-pico-b4 | [arallsopp](https://github.com/arallsopp/hass-hue-icons) |
+| ![cil:lutron-pico-b5](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/lutron-pico-b5.svg)| lutron-pico-b5 | [arallsopp](https://github.com/arallsopp/hass-hue-icons) |
 | ![cil:pedestal-fan](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/pedestal-fan.svg)| pedestal-fan | [Matt8707](https://github.com/Matt8707) |
 | ![cil:roborock-filter](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/roborock-filter.svg)| roborock-filter | [Matt8707](https://github.com/Matt8707) |
 | ![cil:roborock-mainbrush](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/roborock-mainbrush.svg)| roborock-mainbrush | [Matt8707](https://github.com/Matt8707) |
@@ -152,7 +162,6 @@ Listed with icon author:
 | ![cil:tv](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/tv.svg)| tv | [Matt8707](https://github.com/Matt8707) |
 | ![cil:uplighter](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/uplighter.svg)| uplighter | [GunterAV](https://github.com/GunterAV) |
 | ![cil:uplighter-2-way](https://raw.githubusercontent.com/mariusthvdb/custom-icons/main/docs/svgs/uplighter-2-way.svg)| uplighter-2-way | [GunterAV](https://github.com/GunterAV) |
-
 
 
 [//]: # (End Custom Icons)
