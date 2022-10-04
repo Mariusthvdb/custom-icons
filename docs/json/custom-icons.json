@@ -1,6 +1,30 @@
 {
   "icons": [
     {
+      "name": "lutron-pico",
+      "author": "[arallsopp](https://github.com/arallsopp/hass-hue-icons)"
+    },    
+    {
+      "name": "lutron-pico-b1",
+      "author": "[arallsopp](https://github.com/arallsopp/hass-hue-icons)"
+    },    
+    {
+      "name": "lutron-pico-b2",
+      "author": "[arallsopp](https://github.com/arallsopp/hass-hue-icons)"
+    },    
+    {
+      "name": "lutron-pico-b3",
+      "author": "[arallsopp](https://github.com/arallsopp/hass-hue-icons)"
+    },    
+    {
+      "name": "lutron-pico-b4",
+      "author": "[arallsopp](https://github.com/arallsopp/hass-hue-icons)"
+    },
+    {
+      "name": "lutron-pico-b5",
+      "author": "[arallsopp](https://github.com/arallsopp/hass-hue-icons)"
+    },
+    {
       "name": "apple-homepod",
       "author": "[arallsopp](https://github.com/arallsopp/hass-hue-icons)"
     },
@@ -214,6 +238,18 @@
     },
     {
       "name": "google-home",
+      "author": "[Mdi](https://dev.materialdesignicons.com/changelog)"
+    },
+    {
+      "name": "google-home-alt",
+      "author": "[Mdi](https://dev.materialdesignicons.com/changelog)"
+    },
+    {
+      "name": "google-home-off",
+      "author": "[Mdi](https://dev.materialdesignicons.com/changelog)"
+    },
+    {
+      "name": "google-home-alt-off",
       "author": "[Mdi](https://dev.materialdesignicons.com/changelog)"
     },
     {
