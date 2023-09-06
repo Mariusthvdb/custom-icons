@@ -1,0 +1,9 @@
+{
+  "title": "Custom-Icons",
+  "config": {
+    "abort": {
+      "single_instance_allowed": "Es ist nur eine einzige Konfiguration von benutzerdefinierten Symbolen (Custom-Icons) zulässig."
+    },
+    "step": {}
+  }
+}
