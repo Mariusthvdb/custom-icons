@@ -12,6 +12,8 @@ This repo started out with the JS script. That script requires the maintainers t
 
 We have adapted the [Font awesome](https://github.com/thomasloven/hass-fontawesome) custom component by Thomas Loven, which has a much better user experience. With the Custom component, using customized icons is a matter of saving them in the dedicated `/config/www/custom_icons` folder and you're set. The icon picker in Home Assistant can list the icons using the `cli:` prefix instead of the core `mdi:` prefix.
 
+(note the JS resource plugin used `cil:`)
+
 <img width="554" alt="cli icon picker" src="https://github.com/user-attachments/assets/3babf352-7b97-4760-98d9-8745cdce10d4">
 
 So, our preferred method for using non `mdi:` icons is now via the custom_component you can find in this repo. New icons do not require PRs to the integration, just find or create your preferred .svg icons and use them as described above.
