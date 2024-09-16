@@ -6,6 +6,20 @@
 [![GH-last-commit](https://img.shields.io/github/last-commit/Mariusthvdb/custom-icons.svg?style=flat-square)](https://github.com/Mariusthvdb/custom-icons/commits/master)
 [![GH-code-size](https://img.shields.io/github/languages/code-size/Mariusthvdb/custom-icons.svg?color=red&style=flat-square)](https://github.com/Mariusthvdb/custom-icons)
 
+# Read this first: preferred usage and component
+
+This repo started out with the JS script. That script requires the maintainers to edit each and every icon into it, hard coded. It is not very user friendly, and PR's are made difficult too.
+
+We have adapted the [Font awesome](https://github.com/thomasloven/hass-fontawesome) custom component by Thomas Loven, which has a much better user experience. With the Custom component, using customized icons is a matter of saving them in the dedicated `/config/www/custom_icons` folder and you're set. The icon picker in Home Assistant can list the icons using the `cli:` prefix instead of the core `mdi:` prefix.
+
+<img width="554" alt="cli icon picker" src="https://github.com/user-attachments/assets/3babf352-7b97-4760-98d9-8745cdce10d4">
+
+So, our preferred method for using non `mdi:` icons is now via the custom_component you can find in this repo. New icons do not require PRs to the integration, just find or create your preferred .svg icons and use them as described above.
+
+Because of that, PR's to the JS resource plugin here will no longer be merged.
+
+_____
+
 Several custom made and legacy icons, and icons collected all over the internet in 1 set, UI selectable.
 
 Upon each [Material Design icons](http://materialdesignicons.com) update to HA, icons tend to be deprecated, and every now and then I'd love to keep using some. Branded icons, or legacy models. In many Pr's to the main MDI library, icon designs get rejected, while still very useable. Some of these are added in this library.
