@@ -6,13 +6,17 @@
 [![GH-last-commit](https://img.shields.io/github/last-commit/Mariusthvdb/custom-icons.svg?style=flat-square)](https://github.com/Mariusthvdb/custom-icons/commits/master)
 [![GH-code-size](https://img.shields.io/github/languages/code-size/Mariusthvdb/custom-icons.svg?color=red&style=flat-square)](https://github.com/Mariusthvdb/custom-icons)
 
+
+![icon](https://github.com/user-attachments/assets/45507839-3aef-4682-9957-f27501ba883e)
+
+
+
+
 # Read this first: preferred usage and component
 
 This repo started out with the JS script. That script requires the maintainers to edit each and every icon into it, hard coded. It is not very user friendly, and PR's are made difficult too.
 
 We have adapted the [Font awesome](https://github.com/thomasloven/hass-fontawesome) custom component by Thomas Loven, which has a much better user experience. With the Custom component, using customized icons is a matter of saving them in the dedicated `/config/www/custom_icons` folder and you're set. The icon picker in Home Assistant can list the icons using the `cli:` prefix instead of the core `mdi:` prefix.
-
-(note the JS resource plugin used `cil:`)
 
 <img width="554" alt="cli icon picker" src="https://github.com/user-attachments/assets/3babf352-7b97-4760-98d9-8745cdce10d4">
 
@@ -20,6 +24,7 @@ So, our preferred method for using non `mdi:` icons is now via the custom_compon
 
 Because of that, PR's to the JS resource plugin here will no longer be merged.
 
+(note the JS resource plugin used `cil:`)
 _____
 
 Several custom made and legacy icons, and icons collected all over the internet in 1 set, UI selectable.
