@@ -25,6 +25,12 @@ class IconListingView(HomeAssistantView):
 
     async def get(self, request):
         icons = []
+        
+        # Check if path exists
+        if not path.exists(self.icon_path):
+            LOGGER.warning("Icon path does not exist: %s", self.icon_path)
+            return self.json(icons)
+        
         for dirpath, _, filenames in walk(self.icon_path):
             for filename in filenames:
                 if filename.endswith(".svg"):
@@ -34,6 +40,8 @@ class IconListingView(HomeAssistantView):
                         icons.append({"name": icon_name})
                     else:
                         icons.append({"name": f"{rel_path}/{icon_name}"})
+        
+        LOGGER.debug("Found %d SVG icons in %s", len(icons), self.icon_path)
         return self.json(icons)
 
 
@@ -42,7 +50,20 @@ async def async_setup(hass, config):
 
 
 async def async_setup_entry(hass, entry):
-    icon_path = hass.config.path(entry.data["icons_path"])
+    icons_path = entry.data["icons_path"]
+    icon_path = hass.config.path(icons_path)
+
+    # Validate that the icon path exists or is creatable
+    if not path.exists(icon_path):
+        LOGGER.warning(
+            "Custom Icons folder does not exist: %s. Creating it...", icons_path
+        )
+        try:
+            from pathlib import Path
+            Path(icon_path).mkdir(parents=True, exist_ok=True)
+        except OSError as err:
+            LOGGER.error("Failed to create Custom Icons folder: %s", err)
+            return False
 
     # Register static path for icons
     static_paths = [
@@ -57,7 +78,7 @@ async def async_setup_entry(hass, entry):
     # Inject loader script
     add_extra_js_url(hass, LOADER_URL)
 
-    LOGGER.info("Custom Icons loaded from %s", entry.data["icons_path"])
+    LOGGER.info("Custom Icons loaded from %s", icons_path)
     return True
 
 
