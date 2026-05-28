@@ -13,6 +13,33 @@ const fetchIcon = async (iconName) => {
   }
 
   const svg = await response.text();
+
+  // Security: Sanitize SVG to prevent XSS
+  const parser = new DOMParser();
+  const doc = parser.parseFromString(svg, "text/svg");
+  
+  if (!doc || !doc.querySelector("svg")) {
+    console.warn(`Invalid SVG: ${iconName}`);
+    return null;
+  }
+
+  const svgEl = doc.querySelector("svg");
+
+  // Check for event handlers (onclick, onload, etc.)
+  const hasEventHandlers = Array.from(svgEl.attributes).some((a) =>
+    a.name.startsWith("on")
+  );
+  if (hasEventHandlers) {
+    console.warn(`SVG contains event handlers, blocked: ${iconName}`);
+    return null;
+  }
+
+  // Check for script tags
+  if (svgEl.getElementsByTagName("script").length > 0) {
+    console.warn(`SVG contains script tags, blocked: ${iconName}`);
+    return null;
+  }
+
   ICON_CACHE[iconName] = svg;
   return svg;
 };
