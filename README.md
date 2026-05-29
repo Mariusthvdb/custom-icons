@@ -10,7 +10,11 @@
 ![icon](https://github.com/user-attachments/assets/45507839-3aef-4682-9957-f27501ba883e)
 
 
+# Wat's new
 
+Please check the new component at https://github.com/Mariusthvdb/custom_local_icons
+
+this repo will be archived and no longer maintained
 
 # Read this first: preferred usage and component
 
