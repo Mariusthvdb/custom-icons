@@ -1,96 +1,111 @@
-const DOMAIN = "custom_icons";
-const ICON_PREFIX = "cli";
-const ICON_CACHE = {};
+/**
+ * Custom Local Icons - Simple SVG Icon Loader
+ * Registers cli: icon prefix for Home Assistant
+ */
+
+const DOMAIN = "custom_local_icons";
+const PREFIX = "cli";
+const CACHE = {};
 
 /**
- * Fetch a single icon by name
- * @param {string} iconName - Icon name (e.g., "my-icon" or "subfolder/my-icon")
- * @returns {Promise<string|null>} SVG content or null if failed
+ * Security check - prevent XSS attacks
  */
-const fetchIcon = async (iconName) => {
-  if (ICON_CACHE[iconName]) {
-    return ICON_CACHE[iconName];
+function validateSvg(svg) {
+  // Check for event handlers (onclick, onload, etc.)
+  const hasEventHandlers = Array.from(svg.attributes).some((a) =>
+    a.name.toLowerCase().startsWith("on")
+  );
+  if (hasEventHandlers) {
+    console.warn(`[${PREFIX}] Blocked: SVG contains event handlers`);
+    return false;
   }
 
-  try {
-    const response = await fetch(`/${DOMAIN}/icons/${iconName}.svg`);
-    if (!response.ok) {
-      console.warn(`[${ICON_PREFIX}] Failed to load icon: ${iconName} (HTTP ${response.status})`);
-      return null;
-    }
+  // Check for script tags
+  if (svg.getElementsByTagName("script").length > 0) {
+    console.warn(`[${PREFIX}] Blocked: SVG contains scripts`);
+    return false;
+  }
 
-    const svg = await response.text();
+  return true;
+}
 
-    // Security: Validate SVG
-    const parser = new DOMParser();
-    const doc = parser.parseFromString(svg, "text/xml");
-    
-    if (doc.getElementsByTagName("parsererror").length > 0) {
-      console.warn(`[${ICON_PREFIX}] Invalid XML in icon: ${iconName}`);
-      return null;
-    }
-
-    const svgEl = doc.querySelector("svg");
-    if (!svgEl) {
-      console.warn(`[${ICON_PREFIX}] No <svg> element found in: ${iconName}`);
-      return null;
-    }
-
-    // Check for event handlers (onclick, onload, etc.)
-    const hasEventHandlers = Array.from(svgEl.attributes).some((a) =>
-      a.name.toLowerCase().startsWith("on")
-    );
-    if (hasEventHandlers) {
-      console.warn(`[${ICON_PREFIX}] SVG contains event handlers, blocked: ${iconName}`);
-      return null;
-    }
-
-    // Check for script tags
-    if (svgEl.getElementsByTagName("script").length > 0) {
-      console.warn(`[${ICON_PREFIX}] SVG contains script tags, blocked: ${iconName}`);
-      return null;
-    }
-
-    ICON_CACHE[iconName] = svg;
-    return svg;
-  } catch (error) {
-    console.error(`[${ICON_PREFIX}] Error loading icon "${iconName}":`, error);
+/**
+ * Extract viewBox and paths from SVG
+ */
+function parseSvg(svgText) {
+  const parser = new DOMParser();
+  const doc = parser.parseFromString(svgText, "text/xml");
+  
+  // Check for XML parse errors
+  if (doc.getElementsByTagName("parsererror").length) {
+    console.warn(`[${PREFIX}] Invalid XML`);
     return null;
   }
-};
+  
+  const svg = doc.querySelector("svg");
+  if (!svg) {
+    console.warn(`[${PREFIX}] No SVG element found`);
+    return null;
+  }
+
+  // Validate security
+  if (!validateSvg(svg)) {
+    return null;
+  }
+  
+  const viewBox = svg.getAttribute("viewBox") || "0 0 24 24";
+  const paths = Array.from(svg.querySelectorAll("path"))
+    .map(p => p.getAttribute("d"))
+    .filter(Boolean)
+    .join(" ");
+  
+  if (!paths) {
+    console.warn(`[${PREFIX}] No paths found in SVG`);
+    return null;
+  }
+
+  return { viewBox, path: paths };
+}
+
+/**
+ * Fetch icon SVG and parse it
+ */
+async function getIcon(name) {
+  if (CACHE[name]) return CACHE[name];
+  
+  try {
+    const res = await fetch(`/${DOMAIN}/icons/${name}.svg`);
+    if (!res.ok) {
+      console.warn(`[${PREFIX}] Icon not found: ${name}`);
+      return null;
+    }
+    
+    const svg = await res.text();
+    const icon = parseSvg(svg);
+    
+    if (icon) CACHE[name] = icon;
+    return icon;
+  } catch (e) {
+    console.error(`[${PREFIX}] Error loading ${name}:`, e);
+    return null;
+  }
+}
 
 /**
  * Get list of all available icons
- * @returns {Promise<Array>} Array of icon objects with name and keywords
  */
-const getIconList = async () => {
+async function getIconList() {
   try {
-    const response = await fetch(`/${DOMAIN}/list`);
-    if (!response.ok) {
-      console.warn(`[${ICON_PREFIX}] Failed to load icon list`);
-      return [];
-    }
-    const icons = await response.json();
-    
-    // Add prefix to each icon name for display
-    return icons.map((icon) => ({
-      ...icon,
-      displayName: `${ICON_PREFIX}:${icon.name}`,
-    }));
-  } catch (error) {
-    console.error(`[${ICON_PREFIX}] Error loading icon list:`, error);
+    const res = await fetch(`/${DOMAIN}/list`);
+    return res.ok ? await res.json() : [];
+  } catch (e) {
+    console.error(`[${PREFIX}] Error loading icon list:`, e);
     return [];
   }
-};
-
-// Register custom icon set with Home Assistant
-if (!window.customIcons) {
-  window.customIcons = {};
 }
 
-window.customIcons[ICON_PREFIX] = {
-  getIcon: fetchIcon,
-  getIconList: getIconList,
-};
+// Register icon set
+window.customIcons = window.customIcons || {};
+window.customIcons[PREFIX] = { getIcon, getIconList };
 
-console.log(`[${ICON_PREFIX}] Custom icons loader initialized`);
+console.log(`[${PREFIX}] Loaded - use icons with '${PREFIX}:icon-name'`);
